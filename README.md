@@ -64,3 +64,6 @@
 |------------------------------------|------------------------------------------------------------------|--------------------------------|
 | `git reset --soft HEAD~1`          | Desfaz último commit mas mantém alterações                      | `git reset --soft HEAD~1`      |
 | `git checkout -- <arquivo>`        | Descarta mudanças locais em um arquivo                          | `git checkout -- main.py`      |
+
+> This is an easter egg! If you found this, congrats! 🎉 
+> Hi, André! 
