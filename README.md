@@ -1,67 +1,68 @@
-# Guia de Comandos Git com Exemplos
 
-## Configurando um Novo Projeto
+# Guia de Comandos Git / Git Commands Guide
 
-| Comando                             | Descrição                                                                 | Exemplo                                                          |
-|-------------------------------------|---------------------------------------------------------------------------|------------------------------------------------------------------|
-| `git init`                          | Inicializa um novo repositório Git no diretório atual                     | `git init`                                                       |
-| `git remote add origin <url>`       | Conecta o repositório local com um servidor remoto                        | `git remote add origin https://github.com/usuario/repositorio.git` |
-| `git commit -am "Primeiro commit"`  | Prepara e faz commit de todos os arquivos rastreados com uma mensagem     | `git commit -am "Adiciona arquivos iniciais"`                    |
-| `git push -u origin main`           | Envia a branch principal para o remoto e configura o rastreamento upstream| `git push -u origin main`                                       |
+## Configurando um Novo Projeto / Setting Up a New Project
 
-## Trabalhando com Branches
+| Comando / Command | Português — Descrição e Exemplo | English — Description and Example |
+|---|---|---|
+| `git init` | Inicializa um novo repositório Git no diretório atual. Ex.: `git init` | Initializes a new Git repository in the current directory. Ex.: `git init` |
+| `git remote add origin <url>` | Conecta o repositório local a um repositório remoto (cria o remote `origin`). Ex.: `git remote add origin https://github.com/usuario/repositorio.git` | Adds a remote named `origin` pointing to the given URL. Ex.: `git remote add origin https://github.com/user/repo.git` |
+| `git commit -am "Primeiro commit"` | Adiciona (às vezes resume) e faz commit das mudanças rastreadas com uma mensagem. Ex.: `git commit -am "Adiciona arquivos iniciais"` | Stages (for tracked files) and commits changes with a message. Ex.: `git commit -am "Add initial files"` |
+| `git push -u origin main` | Envia a branch `main` ao remoto `origin` e define o upstream (rastreamento). Ex.: `git push -u origin main` | Pushes the `main` branch to the remote `origin` and sets the upstream tracking. Ex.: `git push -u origin main` |
 
-| Comando                                       | Descrição                                                               | Exemplo                                 |
-|-----------------------------------------------|-------------------------------------------------------------------------|-----------------------------------------|
-| `git branch -a`                               | Lista todas as branches, incluindo as remotas                          | `git branch -a`                          |
-| `git checkout -b feature/nova-feature`        | Cria e muda para uma nova branch para sua feature                      | `git checkout -b feature/login`          |
-| `git push -u origin feature/nova-feature`     | Envia a nova branch para o remoto e configura rastreamento             | `git push -u origin feature/login`       |
-| `git branch -d feature/velha-feature`         | Deleta uma branch local após a fusão                                   | `git branch -d feature/login-antigo`     |
+## Trabalhando com Branches / Working with Branches
 
-## Lidando com Mudanças
+| Comando / Command | Português — Descrição e Exemplo | English — Description and Example |
+|---|---|---|
+| `git branch -a` | Lista todas as branches locais e remotas. Ex.: `git branch -a` | Lists all local and remote branches. Ex.: `git branch -a` |
+| `git checkout -b feature/nova-feature` | Cria e muda para uma nova branch para desenvolver uma feature. Ex.: `git checkout -b feature/login` | Creates and switches to a new branch for a feature. Ex.: `git checkout -b feature/login` |
+| `git push -u origin feature/nova-feature` | Envia a nova branch para o remoto e configura o rastreamento upstream. Ex.: `git push -u origin feature/login` | Pushes the new branch to the remote and sets upstream tracking. Ex.: `git push -u origin feature/login` |
+| `git branch -d feature/velha-feature` | Deleta uma branch local (após fusão). Ex.: `git branch -d feature/login-antigo` | Deletes a local branch (commonly after it has been merged). Ex.: `git branch -d feature/old-login` |
 
-| Comando                                 | Descrição                                                                 | Exemplo                                      |
-|-----------------------------------------|---------------------------------------------------------------------------|----------------------------------------------|
-| `git add -p`                            | Adiciona mudanças interativamente, parte por parte                        | `git add -p`                                  |
-| `git commit --amend`                    | Modifica o último commit (mensagem ou conteúdo)                           | `git commit --amend -m "Corrige mensagem"`    |
-| `git reset --hard HEAD~2`              | Desfaz os dois últimos commits localmente                                 | `git reset --hard HEAD~2`                     |
-| `git stash push -m "Trabalho em progresso"` | Salva mudanças atuais temporariamente com uma descrição                 | `git stash push -m "Refatoração do login"`    |
+## Lidando com Mudanças / Handling Changes
 
-## Colaboração
+| Comando / Command | Português — Descrição e Exemplo | English — Description and Example |
+|---|---|---|
+| `git add -p` | Adiciona mudanças interativamente por partes (hunks). Útil para commits seletivos. Ex.: `git add -p` | Interactively stage changes by patch hunks. Useful for selective commits. Ex.: `git add -p` |
+| `git commit --amend` | Altera o último commit (mensagem ou conteúdo). Use com cuidado se já enviou ao remoto. Ex.: `git commit --amend -m "Corrige mensagem"` | Modify the last commit (message or contents). Use carefully if already pushed. Ex.: `git commit --amend -m "Fix message"` |
+| `git reset --hard HEAD~2` | Desfaz os dois últimos commits localmente (perde mudanças não salvas). Ex.: `git reset --hard HEAD~2` | Discard the last two commits locally (will lose uncommitted changes). Ex.: `git reset --hard HEAD~2` |
+| `git stash push -m "Trabalho em progresso"` | Salva mudanças atuais temporariamente com uma mensagem. Ex.: `git stash push -m "Refatoração do login"` | Stash current changes with a message to save work-in-progress. Ex.: `git stash push -m "Login refactor"` |
 
-| Comando                              | Descrição                                                                 | Exemplo                        |
-|--------------------------------------|---------------------------------------------------------------------------|--------------------------------|
-| `git fetch origin`                   | Busca mudanças do remoto sem mesclar                                      | `git fetch origin`             |
-| `git merge origin/main`             | Mescla mudanças da branch principal remota                                | `git merge origin/main`        |
-| `git rebase -i HEAD~3`              | Reorganiza últimos três commits para manter histórico limpo               | `git rebase -i HEAD~3`         |
-| `git cherry-pick <commit-hash>`     | Aplica commit específico de outra branch                                  | `git cherry-pick a1b2c3d`      |
+## Colaboração / Collaboration
 
-## Histórico e Rastreamento
+| Comando / Command | Português — Descrição e Exemplo | English — Description and Example |
+|---|---|---|
+| `git fetch origin` | Busca mudanças do remoto `origin` sem mesclar no branch atual. Ex.: `git fetch origin` | Fetch changes from remote `origin` without merging into the current branch. Ex.: `git fetch origin` |
+| `git merge origin/main` | Mescla mudanças da branch `main` do remoto no branch atual. Ex.: `git merge origin/main` | Merge changes from the remote `main` branch into your current branch. Ex.: `git merge origin/main` |
+| `git rebase -i HEAD~3` | Reescreve/organiza os últimos três commits interativamente para limpar o histórico. Ex.: `git rebase -i HEAD~3` | Interactively rebase the last three commits to tidy up history. Ex.: `git rebase -i HEAD~3` |
+| `git cherry-pick <commit-hash>` | Aplica um commit específico de outra branch no branch atual. Ex.: `git cherry-pick a1b2c3d` | Apply a specific commit from another branch onto the current branch. Ex.: `git cherry-pick a1b2c3d` |
 
-| Comando                                              | Descrição                                                       | Exemplo                          |
-|------------------------------------------------------|-----------------------------------------------------------------|----------------------------------|
-| `git log --oneline --graph --decorate --all`         | Mostra histórico de commits com gráfico                         | `git log --oneline --graph --decorate --all` |
-| `git diff HEAD^ HEAD`                                | Mostra diferenças entre último e penúltimo commit               | `git diff HEAD^ HEAD`            |
-| `git blame arquivo -L 10,20`                         | Mostra autores das linhas 10 a 20 do arquivo                    | `git blame app.py -L 10,20`      |
+## Histórico e Rastreamento / History and Tracking
 
-## Gerenciando Tags
+| Comando / Command | Português — Descrição e Exemplo | English — Description and Example |
+|---|---|---|
+| `git log --oneline --graph --decorate --all` | Mostra histórico de commits em linha única com gráfico e decorações. Ex.: `git log --oneline --graph --decorate --all` | Show commit history in one line per commit with a graph and decorations for all refs. Ex.: `git log --oneline --graph --decorate --all` |
+| `git diff HEAD^ HEAD` | Mostra diferenças entre o último commit e o anterior. Ex.: `git diff HEAD^ HEAD` | Show differences between the last commit and the one before it. Ex.: `git diff HEAD^ HEAD` |
+| `git blame arquivo -L 10,20` | Mostra os autores das linhas 10 a 20 de um arquivo. Ex.: `git blame app.py -L 10,20` | Show the authorship of lines 10 to 20 in a file. Ex.: `git blame app.py -L 10,20` |
 
-| Comando                                  | Descrição                                                       | Exemplo                                 |
-|------------------------------------------|------------------------------------------------------------------|-----------------------------------------|
-| `git tag -a v1.0 -m "Versão 1.0 liberada"` | Cria tag anotada com mensagem                                   | `git tag -a v1.0 -m "Release estável"`   |
-| `git push origin v1.0`                    | Envia tag para o repositório remoto                             | `git push origin v1.0`                   |
+## Gerenciando Tags / Managing Tags
 
-## Lidando com Remotos
+| Comando / Command | Português — Descrição e Exemplo | English — Description and Example |
+|---|---|---|
+| `git tag -a v1.0 -m "Versão 1.0 liberada"` | Cria uma tag anotada com mensagem. Ex.: `git tag -a v1.0 -m "Release estável"` | Create an annotated tag with a message. Ex.: `git tag -a v1.0 -m "Stable release"` |
+| `git push origin v1.0` | Envia a tag `v1.0` para o repositório remoto. Ex.: `git push origin v1.0` | Push the tag `v1.0` to the remote repository. Ex.: `git push origin v1.0` |
 
-| Comando                     | Descrição                                                       | Exemplo                      |
-|-----------------------------|------------------------------------------------------------------|------------------------------|
-| `git remote -v`            | Lista repositórios remotos configurados                         | `git remote -v`              |
-| `git fetch --all --prune` | Busca mudanças e remove branches remotos obsoletos              | `git fetch --all --prune`    |
+## Lidando com Remotos / Handling Remotes
 
-## Desfazendo Mudanças
+| Comando / Command | Português — Descrição e Exemplo | English — Description and Example |
+|---|---|---|
+| `git remote -v` | Lista os repositórios remotos configurados e suas URLs. Ex.: `git remote -v` | Lists configured remote repositories and their URLs. Ex.: `git remote -v` |
+| `git fetch --all --prune` | Busca mudanças de todos os remotos e remove referências remotas obsoletas. Ex.: `git fetch --all --prune` | Fetches from all remotes and prunes deleted remote branches. Ex.: `git fetch --all --prune` |
 
-| Comando                            | Descrição                                                       | Exemplo                        |
-|------------------------------------|------------------------------------------------------------------|--------------------------------|
-| `git reset --soft HEAD~1`          | Desfaz último commit mas mantém alterações                      | `git reset --soft HEAD~1`      |
-| `git checkout -- <arquivo>`        | Descarta mudanças locais em um arquivo                          | `git checkout -- main.py`      |
+## Desfazendo Mudanças / Undoing Changes
+
+| Comando / Command | Português — Descrição e Exemplo | English — Description and Example |
+|---|---|---|
+| `git reset --soft HEAD~1` | Desfaz o último commit mas mantém as alterações staged (na área de preparação). Ex.: `git reset --soft HEAD~1` | Undo the last commit but keep the changes staged. Ex.: `git reset --soft HEAD~1` |
+| `git checkout -- <arquivo>` | Descarta alterações locais em um arquivo (retorna à versão do último commit). Ex.: `git checkout -- main.py` | Discard local changes in a file (revert to the version in the last commit). Ex.: `git checkout -- main.py` |
 
