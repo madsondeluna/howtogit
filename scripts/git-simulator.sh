@@ -24,10 +24,10 @@ show_header() {
     echo ""
     echo -e "${CYAN}╔════════════════════════════════════════════════════════════╗${NC}"
     echo -e "${CYAN}║${NC}                                                            ${CYAN}║${NC}"
-    echo -e "${CYAN}║${NC}    ${YELLOW}[${NC}${GREEN}ᗧ${NC}${YELLOW}]${NC}  ${PURPLE}G I T   L A B   -   Z O N A   D E   T R E I N O${NC}    ${CYAN}║${NC}"
+    echo -e "${CYAN}║        ${PURPLE}G I T   L A B ${NC}                                    ${NC}  ${CYAN}║${NC}"
     echo -e "${CYAN}║${NC}                                                            ${CYAN}║${NC}"
-    echo -e "${CYAN}║${NC}        ${GREEN}▶  P R A T I Q U E   S E M   M E D O  ◀${NC}          ${CYAN}║${NC}"
-    echo -e "${CYAN}║${NC}        ${BLUE}▶  P R A C T I C E   W I T H O U T   F E A R  ◀${NC}  ${CYAN}║${NC}"
+    echo -e "${CYAN}║${NC}        ${GREEN}▶  P R A T I Q U E   S E M   M E D O  ${NC}              ${CYAN}║${NC}"
+    echo -e "${CYAN}║${NC}        ${BLUE}▶  P R A C T I C E   W I T H O U T   F E A R  ${NC}      ${CYAN}║${NC}"
     echo -e "${CYAN}║${NC}                                                            ${CYAN}║${NC}"
     echo -e "${CYAN}╚════════════════════════════════════════════════════════════╝${NC}"
     echo ""
@@ -36,22 +36,20 @@ show_header() {
 # Função para pausar / Function to pause
 pause() {
     echo ""
-    echo -e "${YELLOW}Pressione ENTER para continuar...${NC}"
-    echo -e "${YELLOW}Press ENTER to continue...${NC}"
+    echo -e "${YELLOW}Pressione ENTER para continuar... Press ENTER to continue...${NC}"
     read
 }
 
 # Função para criar ambiente de simulação / Function to create simulation environment
 setup_simulator() {
     show_header
-    echo -e "${CYAN}═══ Configurando Simulador / Setting Up Simulator ═══${NC}"
+    echo -e "${CYAN}*** Configurando Simulador / Setting Up Simulator ***${NC}"
     echo ""
 
     # Criar diretório temporário
     SIMULATOR_DIR=$(mktemp -d -t git-simulator-XXXXXX)
-
-    echo -e "${GREEN}Ambiente de simulação criado em:${NC}"
-    echo -e "${GREEN}Simulation environment created at:${NC}"
+    echo ""
+    echo -e "${GREEN}Ambiente de simulação criado em: / Simulation environment created at:${NC}"
     echo -e "${CYAN}$SIMULATOR_DIR${NC}"
     echo ""
 
@@ -72,11 +70,9 @@ setup_simulator() {
     git add README.md > /dev/null 2>&1
     git commit -m "Initial commit" > /dev/null 2>&1
 
-    echo -e "${GREEN}Repositório Git inicializado!${NC}"
-    echo -e "${GREEN}Git repository initialized!${NC}"
+    echo -e "${GREEN}Repositório Git inicializado! Git repository initialized!${NC}"
     echo ""
-    echo -e "${BLUE}Você está seguro para experimentar!${NC}"
-    echo -e "${BLUE}You are safe to experiment!${NC}"
+    echo -e "${BLUE}Você está seguro para experimentar! You are safe to experiment!${NC}"
 
     pause
 }
@@ -84,7 +80,7 @@ setup_simulator() {
 # Função para visualizar estado / Function to visualize state
 show_state() {
     show_header
-    echo -e "${CYAN}═══ Estado Atual do Repositório / Current Repository State ═══${NC}"
+    echo -e "${CYAN}*** Estado Atual do Repositório / Current Repository State ***${NC}"
     echo ""
 
     # Branch atual
@@ -126,6 +122,7 @@ show_menu() {
     echo -e "${CYAN}═══════════════════════════════════════════${NC}"
     echo -e "${GREEN}BÁSICO / BASIC${NC}"
     echo -e "${CYAN}═══════════════════════════════════════════${NC}"
+    echo ""
     echo -e "${GREEN}1.${NC}  Ver estado atual / View current state"
     echo -e "${GREEN}2.${NC}  Criar novo arquivo / Create new file"
     echo -e "${GREEN}3.${NC}  Modificar arquivo / Modify file"
@@ -135,6 +132,7 @@ show_menu() {
     echo -e "${CYAN}═══════════════════════════════════════════${NC}"
     echo -e "${GREEN}BRANCHES${NC}"
     echo -e "${CYAN}═══════════════════════════════════════════${NC}"
+    echo ""
     echo -e "${GREEN}6.${NC}  Criar nova branch / Create new branch"
     echo -e "${GREEN}7.${NC}  Mudar de branch / Switch branch"
     echo -e "${GREEN}8.${NC}  Fazer merge / Merge branches"
@@ -142,6 +140,7 @@ show_menu() {
     echo -e "${CYAN}═══════════════════════════════════════════${NC}"
     echo -e "${GREEN}AVANÇADO / ADVANCED${NC}"
     echo -e "${CYAN}═══════════════════════════════════════════${NC}"
+    echo ""
     echo -e "${GREEN}9.${NC}  Simular conflito / Simulate conflict"
     echo -e "${GREEN}10.${NC} Desfazer último commit / Undo last commit"
     echo -e "${GREEN}11.${NC} Ver diferenças / View differences"
@@ -150,9 +149,13 @@ show_menu() {
     echo -e "${CYAN}═══════════════════════════════════════════${NC}"
     echo -e "${GREEN}EXERCÍCIOS / EXERCISES${NC}"
     echo -e "${CYAN}═══════════════════════════════════════════${NC}"
+    echo ""
     echo -e "${GREEN}13.${NC} Exercício guiado / Guided exercise"
     echo ""
     echo -e "${CYAN}═══════════════════════════════════════════${NC}"
+    echo -e "${GREEN}SAIR / EXIT${NC}"
+    echo -e "${CYAN}═══════════════════════════════════════════${NC}"
+    echo ""
     echo -e "${RED}0.${NC}  Sair e limpar / Exit and clean up"
     echo ""
     echo -e "${YELLOW}Escolha uma opção / Choose an option:${NC} "
