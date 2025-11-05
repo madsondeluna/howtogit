@@ -19,8 +19,6 @@
 ![Docs](https://img.shields.io/badge/Docs-PT%2FEN-0A66C2?style=for-the-badge)
 ![Hands--on](https://img.shields.io/badge/Hands--on-Labs%20%2B%20CLI-F39C12?style=for-the-badge)
 ![Scripts](https://img.shields.io/badge/Scripts-Bash--based-34495E?style=for-the-badge)
-![CI](https://img.shields.io/github/actions/workflow/status/USUARIO/REPO/ci.yml?label=CI&logo=githubactions&logoColor=white&style=for-the-badge)
-![Conduct](https://img.shields.io/badge/Code%20of%20Conduct-Contributor%20Friendly-8E44AD?style=for-the-badge)
 
 </p>
 
