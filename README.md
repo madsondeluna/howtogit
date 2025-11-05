@@ -1,6 +1,6 @@
 # How to Git
 
-## Um Curso Rápido de GitHunb / A Quick GitHub Course
+Um Curso Rápido de GitHunb / A Quick GitHub Course
 
 ---
 
