@@ -2,22 +2,28 @@
 
 ---
 
-<!-- Linha 1 — meta + stack -->
-[![License](https://img.shields.io/badge/License-MIT?style=flat-square&labelColor=000000&color=30363d)](LICENSE)
-![Bilingual](https://img.shields.io/badge/Bilingual-PT%2FEN?style=flat-square&labelColor=000000&color=30363d)
-![Git](https://img.shields.io/badge/Git-CLI?style=flat-square&labelColor=000000&color=30363d)
-![GitHub](https://img.shields.io/badge/GitHub-Repo?style=flat-square&labelColor=000000&color=30363d)
-![Bash](https://img.shields.io/badge/Bash-Shell?style=flat-square&labelColor=000000&color=30363d)
-![MD](https://img.shields.io/badge/MD-Markdown?style=flat-square&labelColor=000000&color=30363d)
-![ASCII](https://img.shields.io/badge/ASCII-Art?style=flat-square&labelColor=000000&color=30363d)
+<p align="center">
 
-<!-- Linha 2 — status do curso + automação -->
-![Version](https://img.shields.io/badge/Version-2.0?style=flat-square&labelColor=000000&color=30363d)
-![Updated](https://img.shields.io/badge/Updated-Nov_2025?style=flat-square&labelColor=000000&color=30363d)
-![Docs](https://img.shields.io/badge/Docs-PT%2FEN?style=flat-square&labelColor=000000&color=30363d)
-![Scripts](https://img.shields.io/badge/Scripts-Bash?style=flat-square&labelColor=000000&color=30363d)
-![CI](https://img.shields.io/github/actions/workflow/status/USUARIO/REPO/ci.yml?label=CI&style=flat-square&labelColor=000000&color=30363d)
-![Conduct](https://img.shields.io/badge/Conduct-Contributor?style=flat-square&labelColor=000000&color=30363d)
+<!-- Linha 1 — meta + stack (for-the-badge, cores de marca, logos) -->
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
+![Bilingual](https://img.shields.io/badge/PT%20%2F%20EN-Bilingual-0A66C2?style=for-the-badge)
+![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white&style=for-the-badge)
+![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white&style=for-the-badge)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?logo=gnu-bash&logoColor=white&style=for-the-badge)
+![Markdown](https://img.shields.io/badge/Markdown-000000?logo=markdown&logoColor=white&style=for-the-badge)
+![ASCII%20Art](https://img.shields.io/badge/ASCII%20Art-6B7280?logo=readme&logoColor=white&style=for-the-badge)
+
+<!-- Linha 2 — informações do curso + automação -->
+![Version](https://img.shields.io/badge/Version-2.0-2B6CB0?style=for-the-badge)
+![Updated](https://img.shields.io/badge/Updated-Nov_2025-00A3A3?style=for-the-badge)
+![Docs](https://img.shields.io/badge/Docs-PT%2FEN-0A66C2?style=for-the-badge)
+![Hands--on](https://img.shields.io/badge/Hands--on-Labs%20%2B%20CLI-F39C12?style=for-the-badge)
+![Scripts](https://img.shields.io/badge/Scripts-Bash--based-34495E?style=for-the-badge)
+![CI](https://img.shields.io/github/actions/workflow/status/USUARIO/REPO/ci.yml?label=CI&logo=githubactions&logoColor=white&style=for-the-badge)
+![Conduct](https://img.shields.io/badge/Code%20of%20Conduct-Contributor%20Friendly-8E44AD?style=for-the-badge)
+
+</p>
+
 
 ---
 
