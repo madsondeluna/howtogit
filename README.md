@@ -1,23 +1,25 @@
-How 2 Use Git: Um Curso Rápido de GitHunb / A Quick GitHub Course
+# How to Git: Um Curso Rápido de GitHunb / A Quick GitHub Course
 
-<!-- Linha 1 — meta + stack (flat-square) -->
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
-![Bilingual](https://img.shields.io/badge/PT%20%2F%20EN-bilingual-success?style=flat-square)
-![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white&style=flat-square)
-![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white&style=flat-square)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?logo=gnu-bash&logoColor=white&style=flat-square)
-![Markdown](https://img.shields.io/badge/Markdown-000?logo=markdown&logoColor=white&style=flat-square)
-![ASCII Art](https://img.shields.io/badge/ASCII%20Art-mono-lightgrey?style=flat-square)
+---
 
-<!-- Linha 2 — informações do curso + automação (for-the-badge) -->
-![Course Version](https://img.shields.io/badge/version-2.0-blue?style=for-the-badge)
-![Last Updated](https://img.shields.io/badge/updated-Nov_2025-informational?style=for-the-badge)
-![Docs PT/EN](https://img.shields.io/badge/docs-PT%2FEN-0A66C2?style=for-the-badge)
-![Hands-on](https://img.shields.io/badge/hands--on-labs%20%2B%20CLI-orange?style=for-the-badge)
-![Scripts](https://img.shields.io/badge/scripts-bash--based-34495e?style=for-the-badge)
-![CI](https://img.shields.io/github/actions/workflow/status/USUARIO/REPO/ci.yml?label=CI&style=for-the-badge)
-![Code of Conduct](https://img.shields.io/badge/code%20of%20conduct-MIT%2FContributor--Friendly-lightgrey?style=for-the-badge)
+<!-- Linha 1 — meta + stack -->
+[![License](https://img.shields.io/badge/License-MIT?style=flat-square&labelColor=000000&color=30363d)](LICENSE)
+![Bilingual](https://img.shields.io/badge/Bilingual-PT%2FEN?style=flat-square&labelColor=000000&color=30363d)
+![Git](https://img.shields.io/badge/Git-CLI?style=flat-square&labelColor=000000&color=30363d)
+![GitHub](https://img.shields.io/badge/GitHub-Repo?style=flat-square&labelColor=000000&color=30363d)
+![Bash](https://img.shields.io/badge/Bash-Shell?style=flat-square&labelColor=000000&color=30363d)
+![MD](https://img.shields.io/badge/MD-Markdown?style=flat-square&labelColor=000000&color=30363d)
+![ASCII](https://img.shields.io/badge/ASCII-Art?style=flat-square&labelColor=000000&color=30363d)
 
+<!-- Linha 2 — status do curso + automação -->
+![Version](https://img.shields.io/badge/Version-2.0?style=flat-square&labelColor=000000&color=30363d)
+![Updated](https://img.shields.io/badge/Updated-Nov_2025?style=flat-square&labelColor=000000&color=30363d)
+![Docs](https://img.shields.io/badge/Docs-PT%2FEN?style=flat-square&labelColor=000000&color=30363d)
+![Scripts](https://img.shields.io/badge/Scripts-Bash?style=flat-square&labelColor=000000&color=30363d)
+![CI](https://img.shields.io/github/actions/workflow/status/USUARIO/REPO/ci.yml?label=CI&style=flat-square&labelColor=000000&color=30363d)
+![Conduct](https://img.shields.io/badge/Conduct-Contributor?style=flat-square&labelColor=000000&color=30363d)
+
+---
 
 Bem-vindo ao mini curso completo de Git! Aprenda desde o básico até técnicas avançadas, com teoria, prática e ferramentas interativas.
 
