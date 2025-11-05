@@ -1,4 +1,4 @@
-# Mini Curso: Como Usar Git / Mini Course: How to Use Git
+Como Usar Git / Mini Course: How to Use Git
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
