@@ -20,10 +20,10 @@ show_header() {
     echo ""
     echo -e "${CYAN}╔════════════════════════════════════════════════════════════╗${NC}"
     echo -e "${CYAN}║${NC}                                                            ${CYAN}║${NC}"
-    echo -e "${CYAN}║${NC}      ${YELLOW}ᗧ${NC}${YELLOW}·${NC}${RED}$${NC}${YELLOW}·${NC}${RED}$${NC}${YELLOW}·${NC}${RED}$${NC}${YELLOW}··${NC}   ${PURPLE}G I T   C L I   A R C A D E${NC}      0     ${CYAN}║${NC}"
+    echo -e "${CYAN}║${NC}      ${YELLOW}ᗧ${NC}${YELLOW}·····${YELLOW}···· ${PURPLE}G I T   C L I   A R C A D E${NC}                ${CYAN}║${NC}"
     echo -e "${CYAN}║${NC}                                                            ${CYAN}║${NC}"
-    echo -e "${CYAN}║${NC}       ${GREEN}▶  C O M A N D O S   R Á P I D O S   G I T  ◀${NC}      ${CYAN}║${NC}"
-    echo -e "${CYAN}║${NC}       ${BLUE}▶  F A S T   G I T   C O M M A N D S  ◀${NC}            ${CYAN}║${NC}"
+    echo -e "${CYAN}║${NC}       ${GREEN}▶  C O M A N D O S   R Á P I D O S   G I T  ${NC}         ${CYAN}║${NC}"
+    echo -e "${CYAN}║${NC}       ${BLUE}▶  F A S T   G I T   C O M M A N D S  ${NC}               ${CYAN}║${NC}"
     echo -e "${CYAN}║${NC}                                                            ${CYAN}║${NC}"
     echo -e "${CYAN}╚════════════════════════════════════════════════════════════╝${NC}"
     echo ""
@@ -63,7 +63,7 @@ show_menu() {
         echo ""
     fi
 
-    echo -e "${CYAN}═══════════════════════════════════════════${NC}"
+
     echo -e "${GREEN}1.${NC}  Status do repositório / Repository status"
     echo -e "${GREEN}2.${NC}  Ver histórico de commits / View commit history"
     echo -e "${GREEN}3.${NC}  Criar nova branch / Create new branch"
@@ -77,7 +77,7 @@ show_menu() {
     echo -e "${GREEN}11.${NC} Desfazer mudanças / Undo changes"
     echo -e "${GREEN}12.${NC} Ver remotos / View remotes"
     echo -e "${GREEN}13.${NC} Resolver conflitos / Resolve conflicts"
-    echo -e "${CYAN}═══════════════════════════════════════════${NC}"
+    echo ""
     echo -e "${RED}0.${NC}  Sair / Exit"
     echo ""
     echo -e "${YELLOW}Escolha uma opção / Choose an option:${NC} "
