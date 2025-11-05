@@ -1,4 +1,4 @@
-Como Usar Git / Mini Course: How to Use Git
+How 2 Use Git: Um Curso Rápido de GitHunb / A Quick GitHub Course
 
 <!-- Linha 1 — meta + stack (flat-square) -->
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
