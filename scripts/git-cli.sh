@@ -20,7 +20,7 @@ show_header() {
     echo ""
     echo -e "${CYAN}╔════════════════════════════════════════════════════════════╗${NC}"
     echo -e "${CYAN}║${NC}                                                            ${CYAN}║${NC}"
-    echo -e "${CYAN}║${NC}      ${YELLOW}ᗧ${NC}${YELLOW}·${NC}${RED}$${NC}${YELLOW}·${NC}${RED}$${NC}${YELLOW}·${NC}${RED}$${NC}${YELLOW}··${NC}   ${PURPLE}G I T   C L I   A R C A D E${NC}         ${CYAN}║${NC}"
+    echo -e "${CYAN}║${NC}      ${YELLOW}ᗧ${NC}${YELLOW}·${NC}${RED}$${NC}${YELLOW}·${NC}${RED}$${NC}${YELLOW}·${NC}${RED}$${NC}${YELLOW}··${NC}   ${PURPLE}G I T   C L I   A R C A D E${NC}      0     ${CYAN}║${NC}"
     echo -e "${CYAN}║${NC}                                                            ${CYAN}║${NC}"
     echo -e "${CYAN}║${NC}       ${GREEN}▶  C O M A N D O S   R Á P I D O S   G I T  ◀${NC}      ${CYAN}║${NC}"
     echo -e "${CYAN}║${NC}       ${BLUE}▶  F A S T   G I T   C O M M A N D S  ◀${NC}            ${CYAN}║${NC}"
