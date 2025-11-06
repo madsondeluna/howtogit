@@ -122,6 +122,16 @@ lesson_01() {
     show_tip "Git é diferente de GitHub. Git é a ferramenta, GitHub é um serviço online."
     show_tip "Git is different from GitHub. Git is the tool, GitHub is an online service."
 
+    echo ""
+    echo -e "${GREEN}═══════════════════════════════════════════${NC}"
+    echo -e "${GREEN}O QUE VOCÊ APRENDEU: / WHAT YOU LEARNED:${NC}"
+    echo -e "${GREEN}═══════════════════════════════════════════${NC}"
+    echo -e "  ${GREEN}✓${NC} Git é um sistema de controle de versão"
+    echo -e "  ${GREEN}✓${NC} Permite trabalhar em equipe sem conflitos"
+    echo -e "  ${GREEN}✓${NC} Mantém histórico completo de mudanças"
+    echo -e "  ${GREEN}✓${NC} Git ≠ GitHub (ferramenta vs serviço)"
+    echo ""
+
     pause
 }
 
@@ -172,6 +182,16 @@ lesson_02() {
         git config --global user.email
     fi
 
+    echo ""
+    echo -e "${GREEN}═══════════════════════════════════════════${NC}"
+    echo -e "${GREEN}O QUE VOCÊ APRENDEU: / WHAT YOU LEARNED:${NC}"
+    echo -e "${GREEN}═══════════════════════════════════════════${NC}"
+    echo -e "  ${GREEN}✓${NC} Git precisa saber quem você é (nome e email)"
+    echo -e "  ${GREEN}✓${NC} Use: git config --global user.name \"Nome\""
+    echo -e "  ${GREEN}✓${NC} Use: git config --global user.email \"email@email.com\""
+    echo -e "  ${GREEN}✓${NC} Cada commit registrará suas informações"
+    echo ""
+
     pause
 }
 
@@ -200,6 +220,16 @@ lesson_03() {
 
     show_tip "git init cria uma pasta oculta .git com todo o histórico"
     show_tip "git init creates a hidden .git folder with all history"
+
+    echo ""
+    echo -e "${GREEN}═══════════════════════════════════════════${NC}"
+    echo -e "${GREEN}O QUE VOCÊ APRENDEU: / WHAT YOU LEARNED:${NC}"
+    echo -e "${GREEN}═══════════════════════════════════════════${NC}"
+    echo -e "  ${GREEN}✓${NC} git init - cria novo repositório local"
+    echo -e "  ${GREEN}✓${NC} git clone <url> - copia repositório remoto"
+    echo -e "  ${GREEN}✓${NC} Repositório = pasta com controle de versão"
+    echo -e "  ${GREEN}✓${NC} Pasta .git armazena todo o histórico"
+    echo ""
 
     pause
 }
@@ -278,6 +308,17 @@ lesson_05() {
 
     show_tip "Commits pequenos e frequentes são melhores que grandes commits raros!"
     show_tip "Small frequent commits are better than large rare commits!"
+
+    echo ""
+    echo -e "${GREEN}═══════════════════════════════════════════${NC}"
+    echo -e "${GREEN}O QUE VOCÊ APRENDEU: / WHAT YOU LEARNED:${NC}"
+    echo -e "${GREEN}═══════════════════════════════════════════${NC}"
+    echo -e "  ${GREEN}✓${NC} Commit = salvar versão do código"
+    echo -e "  ${GREEN}✓${NC} Passo 1: git add (adicionar ao staging)"
+    echo -e "  ${GREEN}✓${NC} Passo 2: git commit -m \"mensagem\""
+    echo -e "  ${GREEN}✓${NC} Mensagens devem ser claras e descritivas"
+    echo -e "  ${GREEN}✓${NC} Commits pequenos > commits grandes"
+    echo ""
 
     pause
 }

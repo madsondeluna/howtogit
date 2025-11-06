@@ -172,6 +172,19 @@ create_file() {
     echo -e "${CYAN}═══ Criar Novo Arquivo / Create New File ═══${NC}"
     echo ""
 
+    echo -e "${PURPLE}O QUE ESTA OPERAÇÃO FAZ: / WHAT THIS OPERATION DOES:${NC}"
+    echo -e "${BLUE}Cria um novo arquivo no repositório de simulação.${NC}"
+    echo -e "${BLUE}Creates a new file in the simulation repository.${NC}"
+    echo ""
+    echo -e "${BLUE}Este arquivo será 'untracked' (não rastreado pelo Git).${NC}"
+    echo -e "${BLUE}This file will be 'untracked' (not tracked by Git).${NC}"
+    echo ""
+    echo -e "${YELLOW}Para o Git reconhecê-lo, você precisará:${NC}"
+    echo -e "${YELLOW}For Git to recognize it, you'll need to:${NC}"
+    echo -e "  1. Usar 'git add' para adicioná-lo ao staging"
+    echo -e "  2. Usar 'git commit' para salvá-lo permanentemente"
+    echo ""
+
     echo -e "${YELLOW}Nome do arquivo / File name:${NC} "
     read filename
 
@@ -184,15 +197,32 @@ create_file() {
     echo -e "${YELLOW}Conteúdo do arquivo / File content:${NC} "
     read content
 
+    echo ""
+    echo -e "${BLUE}Criando arquivo...${NC}"
     echo "$content" > "$filename"
 
-    echo ""
-    echo -e "${GREEN}Arquivo '$filename' criado!${NC}"
-    echo -e "${GREEN}File '$filename' created!${NC}"
-    echo ""
-    echo -e "${BLUE}Próximos passos / Next steps:${NC}"
-    echo -e "  ${CYAN}git add $filename${NC}"
-    echo -e "  ${CYAN}git commit -m \"Adiciona $filename\"${NC}"
+    if [ $? -eq 0 ]; then
+        echo ""
+        echo -e "${GREEN}═══════════════════════════════════════════${NC}"
+        echo -e "${GREEN}ARQUIVO CRIADO COM SUCESSO! / FILE CREATED SUCCESSFULLY!${NC}"
+        echo -e "${GREEN}═══════════════════════════════════════════${NC}"
+        echo ""
+        echo -e "${CYAN}O QUE ACONTECEU: / WHAT HAPPENED:${NC}"
+        echo -e "  ${GREEN}✓${NC} Arquivo '$filename' foi criado"
+        echo -e "  ${GREEN}✓${NC} Git ainda NÃO está rastreando este arquivo"
+        echo -e "  ${GREEN}✓${NC} Arquivo aparecerá como 'untracked' no git status"
+        echo ""
+        echo -e "${CYAN}PRÓXIMOS PASSOS SUGERIDOS: / SUGGESTED NEXT STEPS:${NC}"
+        echo -e "  ${YELLOW}1.${NC} Use opção '1' para ver o estado atual"
+        echo -e "  ${YELLOW}2.${NC} Use opção '4' para fazer commit: ${CYAN}git add $filename${NC}"
+        echo -e "  ${YELLOW}3.${NC} Depois faça: ${CYAN}git commit -m \"Adiciona $filename\"${NC}"
+        echo ""
+        echo -e "${BLUE}DICA: / TIP:${NC}"
+        echo -e "Faça commits frequentes de arquivos pequenos!"
+        echo -e "Make frequent commits of small files!"
+    else
+        echo -e "${RED}Erro ao criar arquivo / Error creating file${NC}"
+    fi
 
     pause
 }
@@ -371,16 +401,33 @@ merge_branches() {
     echo -e "${CYAN}═══ Merge de Branches / Merge Branches ═══${NC}"
     echo ""
 
+    echo -e "${PURPLE}O QUE É MERGE: / WHAT IS MERGE:${NC}"
+    echo -e "${BLUE}Merge junta mudanças de uma branch em outra.${NC}"
+    echo -e "${BLUE}Merge combines changes from one branch into another.${NC}"
+    echo ""
+    echo -e "${BLUE}Visualização: / Visualization:${NC}"
+    echo -e "  ANTES / BEFORE:"
+    echo -e "    main     ●─●"
+    echo -e "              \\"
+    echo -e "    feature    ●─●"
+    echo ""
+    echo -e "  DEPOIS DO MERGE / AFTER MERGE:"
+    echo -e "    main     ●─●─●─●  (agora tem mudanças da feature)"
+    echo ""
+
     local current_branch=$(git branch --show-current)
-    echo -e "${BLUE}Branch atual / Current branch:${NC} ${GREEN}$current_branch${NC}"
+    echo -e "${YELLOW}VOCÊ ESTÁ NA BRANCH: / YOU ARE ON BRANCH:${NC} ${GREEN}$current_branch${NC}"
+    echo ""
+    echo -e "${BLUE}Mudanças serão trazidas PARA esta branch.${NC}"
+    echo -e "${BLUE}Changes will be brought TO this branch.${NC}"
     echo ""
 
     echo -e "${YELLOW}Branches disponíveis / Available branches:${NC}"
     git branch
     echo ""
 
-    echo -e "${YELLOW}Qual branch você quer mesclar na atual?${NC}"
-    echo -e "${YELLOW}Which branch do you want to merge into current?${NC} "
+    echo -e "${YELLOW}Qual branch você quer mesclar na '$current_branch'?${NC}"
+    echo -e "${YELLOW}Which branch do you want to merge into '$current_branch'?${NC} "
     read branch_name
 
     if [ -z "$branch_name" ]; then
@@ -389,16 +436,68 @@ merge_branches() {
         return
     fi
 
+    if [ "$branch_name" == "$current_branch" ]; then
+        echo -e "${RED}Você não pode fazer merge de uma branch com ela mesma!${NC}"
+        echo -e "${RED}You cannot merge a branch with itself!${NC}"
+        pause
+        return
+    fi
+
+    echo ""
+    echo -e "${PURPLE}O QUE VAI ACONTECER: / WHAT WILL HAPPEN:${NC}"
+    echo -e "${BLUE}1. Git tentará mesclar automaticamente os commits${NC}"
+    echo -e "${BLUE}2. Se houver conflitos, você precisará resolvê-los${NC}"
+    echo -e "${BLUE}3. Um novo commit de merge será criado${NC}"
+    echo ""
+    echo -e "${GREEN}Executando: git merge \"$branch_name\"${NC}"
+    echo ""
+
     git merge "$branch_name"
 
     if [ $? -eq 0 ]; then
         echo ""
-        echo -e "${GREEN}Merge realizado com sucesso!${NC}"
-        echo -e "${GREEN}Merge completed successfully!${NC}"
+        echo -e "${GREEN}═══════════════════════════════════════════${NC}"
+        echo -e "${GREEN}MERGE REALIZADO COM SUCESSO! / MERGE SUCCESSFUL!${NC}"
+        echo -e "${GREEN}═══════════════════════════════════════════${NC}"
+        echo ""
+        echo -e "${CYAN}O QUE ACONTECEU: / WHAT HAPPENED:${NC}"
+        echo -e "  ${GREEN}✓${NC} Mudanças de '$branch_name' foram trazidas para '$current_branch'"
+        echo -e "  ${GREEN}✓${NC} Não houve conflitos"
+        echo -e "  ${GREEN}✓${NC} Um commit de merge foi criado (ou fast-forward)"
+        echo ""
+        echo -e "${CYAN}PRÓXIMOS PASSOS: / NEXT STEPS:${NC}"
+        echo -e "  1. Use opção '5' para ver o histórico com o merge"
+        echo -e "  2. Teste o código para garantir que está funcionando"
+        echo -e "  3. Opcionalmente, delete a branch '$branch_name' se não precisar mais"
+        echo ""
+        echo -e "${BLUE}DICA: / TIP:${NC}"
+        echo -e "Fast-forward = quando não há conflitos, Git apenas move o ponteiro"
+        echo -e "Fast-forward = when there are no conflicts, Git just moves the pointer"
     else
         echo ""
-        echo -e "${RED}Conflitos detectados! Resolva manualmente.${NC}"
-        echo -e "${RED}Conflicts detected! Resolve manually.${NC}"
+        echo -e "${YELLOW}═══════════════════════════════════════════${NC}"
+        echo -e "${YELLOW}CONFLITOS DETECTADOS! / CONFLICTS DETECTED!${NC}"
+        echo -e "${YELLOW}═══════════════════════════════════════════${NC}"
+        echo ""
+        echo -e "${BLUE}Não se preocupe! Conflitos são normais.${NC}"
+        echo -e "${BLUE}Don't worry! Conflicts are normal.${NC}"
+        echo ""
+        echo -e "${CYAN}O QUE SÃO CONFLITOS: / WHAT ARE CONFLICTS:${NC}"
+        echo -e "Acontecem quando as mesmas linhas foram modificadas em ambas as branches."
+        echo -e "Occur when the same lines were modified in both branches."
+        echo ""
+        echo -e "${CYAN}COMO RESOLVER: / HOW TO RESOLVE:${NC}"
+        echo -e "  ${YELLOW}1.${NC} Use 'git status' para ver arquivos em conflito"
+        echo -e "  ${YELLOW}2.${NC} Abra os arquivos e procure por:"
+        echo -e "      ${RED}<<<<<<< HEAD${NC}       (sua versão)"
+        echo -e "      ${BLUE}=======${NC}"
+        echo -e "      ${RED}>>>>>>> $branch_name${NC}  (versão da outra branch)"
+        echo -e "  ${YELLOW}3.${NC} Edite o arquivo, mantendo o que você quer"
+        echo -e "  ${YELLOW}4.${NC} Remova os marcadores (<<<<<<<, =======, >>>>>>>)"
+        echo -e "  ${YELLOW}5.${NC} Use 'git add <arquivo>' depois de resolver"
+        echo -e "  ${YELLOW}6.${NC} Use 'git commit' para finalizar o merge"
+        echo ""
+        echo -e "${YELLOW}OU cancele o merge: git merge --abort${NC}"
     fi
 
     pause
