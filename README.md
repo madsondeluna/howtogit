@@ -1,6 +1,6 @@
 # How to Git
 
-Um Curso Rápido de GitHunb / A Quick GitHub Course
+A Quick GitHub Course / Um Curso Rápido de GitHub
 
 ---
 
@@ -24,79 +24,63 @@ Um Curso Rápido de GitHunb / A Quick GitHub Course
 
 </p>
 
+---
+
+## Bilingual Course | Curso Bilíngue
+
+**English:** This is a complete Git course taught in both English and Brazilian Portuguese. All learning materials, interactive CLI tools, and documentation are fully bilingual. The README is organized in two main sections: **first in English**, then **in Portuguese**. Use the table of contents below to jump directly to your preferred language.
+
+**Português:** Este é um curso completo de Git ministrado em inglês e português brasileiro. Todos os materiais de aprendizado, ferramentas CLI interativas e documentação são totalmente bilíngues. O README está organizado em duas seções principais: **primeiro em inglês**, depois **em português**. Use o índice abaixo para ir diretamente para seu idioma preferido.
 
 ---
 
-Bem-vindo ao mini curso completo de Git! Aprenda desde o básico até técnicas avançadas, com teoria, prática e ferramentas interativas.
+## Table of Contents | Índice
+
+### English Version
+- [About the Course (EN)](#about-the-course-english)
+- [Part 1: Fundamentals (EN)](#part-1-fundamentals)
+- [Part 2: Commands (EN)](#part-2-commands)
+- [Part 3: Practice (EN)](#part-3-practice)
+- [Real World Use Cases (EN)](#real-world-use-cases)
+- [Best Practices (EN)](#best-practices)
+- [Troubleshooting (EN)](#troubleshooting)
+- [External Resources (EN)](#external-resources)
+
+### Versão em Português
+- [Sobre o Curso (PT)](#sobre-o-curso-português)
+- [Parte 1: Fundamentos (PT)](#parte-1-fundamentos)
+- [Parte 2: Comandos (PT)](#parte-2-comandos)
+- [Parte 3: Prática (PT)](#parte-3-prática)
+- [Casos de Uso Reais (PT)](#casos-de-uso-reais)
+- [Melhores Práticas (PT)](#melhores-práticas)
+- [Solução de Problemas (PT)](#solução-de-problemas)
+- [Recursos Externos (PT)](#recursos-externos)
+
+---
+
+# ENGLISH VERSION
+
+---
+
+## About the Course (English)
 
 Welcome to the complete Git mini course! Learn from basics to advanced techniques, with theory, practice, and interactive tools.
 
-## Sobre o Curso / About the Course
+**What makes this course special:**
 
-**Curso Bilíngue / Bilingual Course**
+- **Bilingual Content:** All materials, scripts, and CLI tools are available in both English and Portuguese
+- **Interactive Learning:** Hands-on CLI tools to practice Git commands safely
+- **Real-World Focus:** Practical examples and use cases from actual development workflows
+- **Progressive Learning:** From basic to advanced, with clear progression
+- **Open Source:** Free and open to contributions
 
-Este curso é apresentado em **português brasileiro (PT-BR) e inglês (EN)** lado a lado em todo o conteúdo. Isso permite que:
-
-This course is presented in **Brazilian Portuguese (PT-BR) and English (EN)** side by side throughout all content. This allows:
-
-- Falantes de português aprendam Git na sua língua nativa / Portuguese speakers to learn Git in their native language
-- Falantes de inglês tenham acesso ao mesmo conteúdo / English speakers to have access to the same content
-- Estudantes pratiquem ambos os idiomas enquanto aprendem / Students to practice both languages while learning
-- O curso seja acessível para a comunidade internacional / The course to be accessible to the international community
-
-**Todas as ferramentas, scripts e documentação são bilíngues!**
-
-**All tools, scripts and documentation are bilingual!**
+**All unsupervised learning CLI tools are bilingual!**
 
 ---
 
-## Índice / Table of Contents
+## Part 1: Fundamentals
 
-### PARTE 1: FUNDAMENTOS / PART 1: FUNDAMENTALS
-- [O que é Git?](#o-que-é-git--what-is-git)
-- [O que é GitHub?](#o-que-é-github--what-is-github)
-- [Por que usar controle de versão?](#por-que-usar-controle-de-versão--why-use-version-control)
-- [Conceitos Essenciais](#conceitos-essenciais--essential-concepts)
-
-### PARTE 2: COMANDOS / PART 2: COMMANDS
-- [Módulo 1: Comandos Básicos](#módulo-1-comandos-básicos--module-1-basic-commands)
-- [Módulo 2: Comandos Intermediários](#módulo-2-comandos-intermediários--module-2-intermediate-commands)
-- [Módulo 3: Comandos Avançados](#módulo-3-comandos-avançados--module-3-advanced-commands)
-
-### PARTE 3: PRÁTICA / PART 3: PRACTICE
-- [Ferramentas Interativas](#ferramentas-interativas--interactive-tools)
-- [Casos de Uso Reais](#casos-de-uso-reais--real-world-use-cases)
-- [Exemplos Práticos](#exemplos-práticos--practical-examples)
-
----
-
-## PARTE 1: FUNDAMENTOS / PART 1: FUNDAMENTALS
-
----
-
-## O que é Git? / What is Git?
-
-### Português
-
-**Git** é um sistema de controle de versão distribuído, criado por Linus Torvalds em 2005. Ele permite que você:
-
-- Rastreie todas as mudanças feitas nos seus arquivos ao longo do tempo
-- Trabalhe em diferentes versões do seu projeto simultaneamente (branches)
-- Colabore com outras pessoas sem sobrescrever o trabalho delas
-- Volte para qualquer versão anterior do seu código a qualquer momento
-
-**Analogia:** Imagine o Git como uma "máquina do tempo" para seus arquivos. Você pode:
-- Ver o que mudou e quando
-- Voltar para qualquer ponto no passado
-- Criar realidades alternativas (branches) para testar ideias
-- Mesclar diferentes linhas do tempo (merge)
-
-**Git NÃO é:**
-- Um serviço na nuvem (isso é GitHub, GitLab, etc.)
-- Apenas para programadores (pode ser usado para qualquer tipo de arquivo texto)
-- Complicado (com a prática fica natural)
-
-### English
+### What is Git?
 
 **Git** is a distributed version control system created by Linus Torvalds in 2005. It allows you to:
 
@@ -118,38 +102,7 @@ This course is presented in **Brazilian Portuguese (PT-BR) and English (EN)** si
 
 ---
 
-## O que é GitHub? / What is GitHub?
-
-### Português
-
-**GitHub** é uma plataforma web que hospeda repositórios Git na nuvem. É como uma "rede social para código".
-
-**Diferenças principais:**
-
-| Git | GitHub |
-|-----|--------|
-| Sistema de controle de versão | Plataforma de hospedagem |
-| Funciona localmente no seu computador | Funciona na nuvem (online) |
-| Software de linha de comando | Interface web + ferramentas |
-| Gratuito e open source | Gratuito com recursos pagos |
-| Criado em 2005 | Criado em 2008 |
-
-**O que o GitHub adiciona ao Git:**
-- Armazenamento remoto (backup na nuvem)
-- Interface visual para revisar código
-- Pull Requests (revisão de código colaborativa)
-- Issues (gerenciamento de tarefas)
-- Actions (automação de tarefas)
-- Pages (hospedagem de sites estáticos)
-- Colaboração social (seguir desenvolvedores, estrelar projetos)
-
-**Alternativas ao GitHub:**
-- GitLab
-- Bitbucket
-- Gitea
-- SourceForge
-
-### English
+### What is GitHub?
 
 **GitHub** is a web platform that hosts Git repositories in the cloud. It's like a "social network for code".
 
@@ -180,36 +133,7 @@ This course is presented in **Brazilian Portuguese (PT-BR) and English (EN)** si
 
 ---
 
-## Por que usar controle de versão? / Why use version control?
-
-### Português
-
-**Problemas sem controle de versão:**
-- "Onde está a versão que funcionava?"
-- "Quem fez essa mudança e por quê?"
-- "Como mesclo meu trabalho com o do meu colega?"
-- "Perdi tudo! Não tenho backup!"
-- Pastas cheias de: `projeto_v1`, `projeto_v2_final`, `projeto_v2_final_AGORA_VAI`, `projeto_final_final`
-
-**Benefícios do Git:**
-1. **Histórico completo:** Toda mudança é registrada com data, autor e motivo
-2. **Trabalho paralelo:** Múltiplas pessoas trabalhando simultaneamente sem conflitos
-3. **Segurança:** Backup distribuído - cada clone é um backup completo
-4. **Experimentação segura:** Teste ideias sem medo de quebrar o que funciona
-5. **Rastreabilidade:** Descubra quando e por que cada linha foi modificada
-6. **Reversibilidade:** Desfaça erros facilmente
-7. **Colaboração:** Trabalhe em equipe de forma organizada
-8. **Profissionalismo:** Padrão da indústria de software
-
-**Casos de uso:**
-- Desenvolvimento de software (principal)
-- Documentação técnica
-- Configurações de sistema
-- Artigos e livros (texto)
-- Trabalhos acadêmicos
-- Qualquer projeto com múltiplas versões
-
-### English
+### Why use version control?
 
 **Problems without version control:**
 - "Where's the version that worked?"
@@ -238,45 +162,7 @@ This course is presented in **Brazilian Portuguese (PT-BR) and English (EN)** si
 
 ---
 
-## Conceitos Essenciais / Essential Concepts
-
-### Português
-
-**Repositório (Repository):**
-- Pasta que contém seu projeto e todo o histórico Git
-- Pode ser local (no seu computador) ou remoto (GitHub, etc.)
-
-**Commit:**
-- Um "snapshot" (foto) do seu projeto em um momento específico
-- Cada commit tem: hash único, autor, data, mensagem descritiva
-
-**Branch:**
-- Uma linha de desenvolvimento independente
-- Permite trabalhar em features sem afetar o código principal
-- Branch padrão: `main` (ou `master` em projetos antigos)
-
-**Merge:**
-- Combinar mudanças de uma branch em outra
-- Pode gerar conflitos que precisam ser resolvidos manualmente
-
-**Working Directory:**
-- Os arquivos que você vê e edita na sua pasta
-
-**Staging Area (Index):**
-- Área intermediária onde você prepara arquivos para commit
-- Permite fazer commits seletivos (só alguns arquivos)
-
-**Remote:**
-- Versão do repositório hospedada em outro lugar (GitHub, etc.)
-- Nome padrão: `origin`
-
-**Estados de um arquivo:**
-1. **Untracked:** Git não está rastreando este arquivo
-2. **Unmodified:** Arquivo rastreado, sem mudanças desde último commit
-3. **Modified:** Arquivo foi modificado mas não está no staging
-4. **Staged:** Arquivo pronto para ser commitado
-
-### English
+### Essential Concepts
 
 **Repository:**
 - Folder containing your project and all Git history
@@ -314,32 +200,28 @@ This course is presented in **Brazilian Portuguese (PT-BR) and English (EN)** si
 
 ---
 
-## PARTE 2: COMANDOS / PART 2: COMMANDS
+## Part 2: Commands
 
 ---
 
-## Módulo 1: Comandos Básicos / Module 1: Basic Commands
-
-**Para quem:** Iniciantes que nunca usaram Git
+## Module 1: Basic Commands
 
 **For whom:** Beginners who never used Git
-
-**Você vai aprender:** Criar repositório, fazer commits, ver histórico
 
 **You'll learn:** Create repository, make commits, view history
 
 ---
 
-### 1.1 Configuração Inicial / Initial Setup
+### 1.1 Initial Setup
 
-| Comando / Command | Descrição PT | Description EN |
-|---|---|---|
-| `git config --global user.name "Seu Nome"` | Define seu nome para todos os repositórios | Set your name for all repositories |
-| `git config --global user.email "seu@email.com"` | Define seu email para todos os repositórios | Set your email for all repositories |
-| `git config --list` | Mostra todas as configurações | Show all configurations |
-| `git --version` | Mostra a versão do Git instalada | Show installed Git version |
+| Command | Description |
+|---|---|
+| `git config --global user.name "Your Name"` | Set your name for all repositories |
+| `git config --global user.email "your@email.com"` | Set your email for all repositories |
+| `git config --list` | Show all configurations |
+| `git --version` | Show installed Git version |
 
-**Exemplo / Example:**
+**Example:**
 ```bash
 git config --global user.name "Madson Aragão"
 git config --global user.email "madson@example.com"
@@ -348,14 +230,1080 @@ git config --global core.editor "vim"
 
 ---
 
-### 1.2 Criar e Inicializar / Create and Initialize
+### 1.2 Create and Initialize
 
-| Comando / Command | Descrição PT | Description EN |
-|---|---|---|
-| `git init` | Cria um novo repositório Git na pasta atual | Create new Git repository in current folder |
-| `git clone <url>` | Copia um repositório remoto para seu computador | Copy remote repository to your computer |
+| Command | Description |
+|---|---|
+| `git init` | Create new Git repository in current folder |
+| `git clone <url>` | Copy remote repository to your computer |
 
-**Exemplo / Example:**
+**Example:**
+```bash
+# Create new project
+mkdir my-project
+cd my-project
+git init
+
+# Clone existing project
+git clone https://github.com/user/repository.git
+```
+
+---
+
+### 1.3 Status and Differences
+
+| Command | Description |
+|---|---|
+| `git status` | Show current state of files |
+| `git status -s` | Short status format |
+| `git diff` | Show unstaged changes |
+| `git diff --staged` | Show staged changes |
+
+**Example:**
+```bash
+git status              # See what changed
+git diff file.txt       # See specific changes
+```
+
+---
+
+### 1.4 Add and Commit
+
+| Command | Description |
+|---|---|
+| `git add <file>` | Add specific file to staging |
+| `git add .` | Add all modified files |
+| `git add -A` | Add all (including deleted) |
+| `git commit -m "message"` | Create commit with message |
+| `git commit -am "message"` | Add + commit (tracked files only) |
+
+**Example:**
+```bash
+# Basic workflow
+git add file.txt
+git commit -m "Add new file"
+
+# Or all at once
+git add .
+git commit -m "Update documentation"
+```
+
+---
+
+### 1.5 View History
+
+| Command | Description |
+|---|---|
+| `git log` | Show complete commit history |
+| `git log --oneline` | Summarized history (1 line per commit) |
+| `git log --graph` | History with visual graph |
+| `git log -n 5` | Show last 5 commits |
+| `git show <hash>` | Show details of specific commit |
+
+**Example:**
+```bash
+git log --oneline --graph --all
+git log --author="Madson"
+git log --since="2 weeks ago"
+```
+
+---
+
+### 1.6 Remote Repositories
+
+| Command | Description |
+|---|---|
+| `git remote add origin <url>` | Connect local repository to remote |
+| `git remote -v` | List configured remotes |
+| `git push -u origin main` | Send commits to remote (first time) |
+| `git push` | Send commits to remote |
+| `git pull` | Fetch and merge changes from remote |
+
+**Example:**
+```bash
+# Connect to GitHub
+git remote add origin https://github.com/user/repo.git
+git push -u origin main
+
+# Then just
+git push
+git pull
+```
+
+---
+
+## Module 2: Intermediate Commands
+
+**For whom:** Those who know basics and want to work with branches and collaboration
+
+---
+
+### 2.1 Working with Branches
+
+| Command | Description |
+|---|---|
+| `git branch` | List all local branches |
+| `git branch -a` | List all branches (local + remote) |
+| `git branch <name>` | Create new branch |
+| `git checkout <name>` | Switch to another branch |
+| `git checkout -b <name>` | Create and switch to new branch |
+| `git switch <name>` | Switch branch (modern command) |
+| `git branch -d <name>` | Delete branch (if already merged) |
+| `git branch -D <name>` | Force delete branch |
+
+**Example:**
+```bash
+# Create feature
+git checkout -b feature/login
+# ... work ...
+git add .
+git commit -m "Implement login"
+
+# Return to main
+git checkout main
+```
+
+---
+
+### 2.2 Merge and Conflicts
+
+| Command | Description |
+|---|---|
+| `git merge <branch>` | Merge specified branch into current |
+| `git merge --abort` | Cancel ongoing merge |
+| `git merge --no-ff <branch>` | Merge without fast-forward (creates merge commit) |
+
+**Example:**
+```bash
+git checkout main
+git merge feature/login
+
+# If there are conflicts
+# 1. Edit files manually
+# 2. Remove conflict markers
+# 3. git add <resolved-file>
+# 4. git commit
+```
+
+---
+
+### 2.3 Stash (Save Temporarily)
+
+| Command | Description |
+|---|---|
+| `git stash` | Save changes temporarily |
+| `git stash push -m "message"` | Stash with descriptive message |
+| `git stash list` | List all stashes |
+| `git stash pop` | Recover last stash and remove from list |
+| `git stash apply` | Apply stash but keep in list |
+| `git stash drop` | Remove last stash |
+| `git stash clear` | Remove all stashes |
+
+**Example:**
+```bash
+# Quick context switch
+git stash push -m "WIP: working on login"
+git checkout hotfix
+# ... fix urgent bug ...
+git checkout feature/login
+git stash pop
+```
+
+---
+
+### 2.4 Undo Changes
+
+| Command | Description |
+|---|---|
+| `git restore <file>` | Discard changes in file |
+| `git restore --staged <file>` | Remove file from staging |
+| `git reset --soft HEAD~1` | Undo commit, keep changes staged |
+| `git reset --mixed HEAD~1` | Undo commit, unstage changes |
+| `git reset --hard HEAD~1` | Undo commit and discard changes |
+| `git revert <hash>` | Create new commit undoing another |
+
+**Example:**
+```bash
+# Undo local changes
+git restore file.txt
+
+# Undo last commit (keep changes)
+git reset --soft HEAD~1
+
+# Undo specific commit (safe for shared)
+git revert a1b2c3d
+```
+
+---
+
+### 2.5 Tags (Versions)
+
+| Command | Description |
+|---|---|
+| `git tag` | List all tags |
+| `git tag v1.0.0` | Create lightweight tag |
+| `git tag -a v1.0.0 -m "Version 1.0"` | Create annotated tag |
+| `git push origin v1.0.0` | Push tag to remote |
+| `git push origin --tags` | Push all tags |
+
+**Example:**
+```bash
+git tag -a v1.0.0 -m "First stable version"
+git push origin v1.0.0
+```
+
+---
+
+## Module 3: Advanced Commands
+
+**For whom:** Experienced developers who want to master Git
+
+---
+
+### 3.1 Rebase (Rewrite History)
+
+| Command | Description |
+|---|---|
+| `git rebase main` | Reapply current branch commits on top of main |
+| `git rebase -i HEAD~3` | Interactive rebase (edit last 3 commits) |
+| `git rebase --continue` | Continue rebase after resolving conflicts |
+| `git rebase --abort` | Cancel ongoing rebase |
+| `git pull --rebase` | Pull with rebase instead of merge |
+
+**When to use:**
+- Keep history linear and clean
+- Before creating Pull Request
+- Update feature branch with main
+
+**WARNING:** Don't rebase commits already pushed to remote!
+
+**Example:**
+```bash
+git checkout feature/login
+git rebase main
+
+# Clean history before PR
+git rebase -i HEAD~5
+# In editor: squash, reword, drop
+```
+
+---
+
+### 3.2 Cherry-pick (Selective Commits)
+
+| Command | Description |
+|---|---|
+| `git cherry-pick <hash>` | Apply specific commit to current branch |
+| `git cherry-pick <hash1> <hash2>` | Apply multiple commits |
+| `git cherry-pick --continue` | Continue after resolving conflicts |
+| `git cherry-pick --abort` | Cancel cherry-pick |
+
+**Example:**
+```bash
+# Take bugfix from one branch to another
+git checkout main
+git cherry-pick a1b2c3d
+```
+
+---
+
+### 3.3 Reflog (Recover Lost Commits)
+
+| Command | Description |
+|---|---|
+| `git reflog` | Show history of HEAD movements |
+| `git reflog show <branch>` | Reflog of specific branch |
+| `git reset --hard <hash>` | Go back to specific commit from reflog |
+
+**Example:**
+```bash
+# "Lost" commits after reset
+git reflog
+# HEAD@{2}: commit: Implement feature X
+git reset --hard HEAD@{2}  # Recover!
+```
+
+---
+
+### 3.4 Bisect (Find Bugs)
+
+| Command | Description |
+|---|---|
+| `git bisect start` | Start binary search for bug |
+| `git bisect bad` | Mark current commit as bad |
+| `git bisect good <hash>` | Mark commit as good |
+| `git bisect reset` | End bisect |
+
+**Example:**
+```bash
+git bisect start
+git bisect bad                  # Current commit has bug
+git bisect good v1.0.0          # v1.0.0 worked
+# Git will test commits in the middle
+# For each one you test and mark: git bisect good/bad
+```
+
+---
+
+### 3.5 Blame (Who Changed?)
+
+| Command | Description |
+|---|---|
+| `git blame <file>` | Show who modified each line |
+| `git blame -L 10,20 <file>` | Blame specific lines |
+| `git blame -C <file>` | Detect copied lines |
+
+**Example:**
+```bash
+git blame src/main.py -L 50,60
+```
+
+---
+
+### 3.6 Submodules
+
+| Command | Description |
+|---|---|
+| `git submodule add <url> <path>` | Add repository as submodule |
+| `git submodule init` | Initialize submodules |
+| `git submodule update` | Update submodules |
+| `git clone --recursive <url>` | Clone with submodules |
+
+---
+
+### 3.7 Worktree (Multiple Directories)
+
+| Command | Description |
+|---|---|
+| `git worktree add <path> <branch>` | Create directory for branch |
+| `git worktree list` | List worktrees |
+| `git worktree remove <path>` | Remove worktree |
+
+**Example:**
+```bash
+# Work on 2 branches simultaneously
+git worktree add ../project-feature feature/new
+cd ../project-feature
+# Now you have 2 independent directories!
+```
+
+---
+
+### 3.8 Hooks (Automation)
+
+**Files in `.git/hooks/`:**
+- `pre-commit`: Execute before commit
+- `pre-push`: Execute before push
+- `post-merge`: Execute after merge
+
+**Example:**
+```bash
+# .git/hooks/pre-commit
+#!/bin/bash
+npm test  # Run tests before allowing commit
+```
+
+---
+
+## Part 3: Practice
+
+---
+
+## Interactive Tools
+
+This course includes interactive CLI tools to facilitate learning and using Git.
+
+---
+
+### 1. Interactive Tutorial
+
+**[git-learn.sh](scripts/git-learn.sh)** - Learn Git from scratch
+
+```bash
+./scripts/git-learn.sh
+```
+
+**Content:**
+- 12 progressive lessons (basic to intermediate)
+- Explanations in Portuguese and English
+- Guided practical exercise at the end
+- Creates real test repository
+
+**For whom:**
+- Total Git beginners
+- Those who want to understand concepts
+- Students learning programming
+
+---
+
+### 2. Interactive CLI
+
+**[git-cli.sh](scripts/git-cli.sh)** - Execute Git commands via menu
+
+```bash
+./scripts/git-cli.sh
+```
+
+**Features:**
+- 13 most common Git operations
+- Numbered menu interface
+- Confirmation for dangerous actions
+- Detects repository automatically
+- Shows current branch
+
+**For whom:**
+- Those who want to speed up common tasks
+- Beginners who haven't memorized commands yet
+- Quick daily use
+
+---
+
+### 3. Git Simulator
+
+**[git-simulator.sh](scripts/git-simulator.sh)** - Simulate Git operations without risk
+
+```bash
+./scripts/git-simulator.sh
+```
+
+**Features:**
+- Creates temporary test environment
+- Simulates complete Git workflow
+- Visualizes repository state
+- Practice without fear of mistakes
+- Environment is destroyed on exit
+
+**For whom:**
+- Those who want to practice without risk
+- Git classes and workshops
+- Test commands before using in real projects
+
+---
+
+### 4. Commands List
+
+**[list-of-comds-how2git.sh](scripts/list-of-comds-how2git.sh)** - Organized and commented commands
+
+```bash
+cat scripts/list-of-comds-how2git.sh
+# or
+vim scripts/list-of-comds-how2git.sh
+```
+
+**For whom:**
+- Quick reference
+- Copy and paste commands
+- Study syntax
+
+---
+
+## Real World Use Cases
+
+### Case 1: First day on project
+
+```bash
+# Clone repository
+git clone https://github.com/company/project.git
+cd project
+
+# View branch structure
+git branch -a
+
+# View recent commits
+git log --oneline -10
+
+# Create your work branch
+git checkout -b feature/my-task
+```
+
+---
+
+### Case 2: Complete feature
+
+```bash
+# Create branch
+git checkout -b feature/login
+
+# Work...
+git add .
+git commit -m "feat: add login screen"
+
+# More work...
+git commit -am "feat: add validation"
+
+# Update with main
+git fetch origin
+git rebase origin/main
+
+# Send for review
+git push -u origin feature/login
+# Create Pull Request on GitHub
+```
+
+---
+
+### Case 3: Urgent production bug
+
+```bash
+# Save current work
+git stash push -m "WIP: login feature"
+
+# Create hotfix
+git checkout main
+git pull origin main
+git checkout -b hotfix/fix-critical-error
+
+# Fix...
+git add .
+git commit -m "fix: correct authentication error"
+
+# Send
+git push -u origin hotfix/fix-critical-error
+
+# Return to work
+git checkout feature/login
+git stash pop
+```
+
+---
+
+### Case 4: Undo disaster
+
+```bash
+# "I deleted everything with reset --hard!"
+git reflog
+# HEAD@{1}: reset: moving to HEAD~5
+# HEAD@{2}: commit: Implement important feature
+
+# Recover
+git reset --hard HEAD@{2}
+# Everything back!
+```
+
+---
+
+### Case 5: Clean history before PR
+
+```bash
+# You have 10 messy commits
+git log --oneline -10
+
+# Organize with interactive rebase
+git rebase -i HEAD~10
+
+# In editor:
+# pick  -> keep commit
+# squash -> merge with previous
+# reword -> change message
+# drop   -> discard
+
+# Force update branch
+git push --force-with-lease
+```
+
+---
+
+### Case 6: Resolve merge conflict
+
+```bash
+git merge main
+# CONFLICT (content): Merge conflict in file.txt
+
+# Open file.txt and see:
+<<<<<<< HEAD
+your branch code
+=======
+main code
+>>>>>>> main
+
+# Edit manually, remove markers
+# Choose what to keep
+
+git add file.txt
+git commit -m "Resolve merge conflict"
+```
+
+---
+
+## Practical Examples
+
+Detailed examples of real scenarios:
+
+- **[Resolve Conflicts](examples/01-resolver-conflitos.md)** - Complete step by step
+- **[Create Pull Request](examples/02-criar-pull-request.md)** - Complete workflow
+- **[Undo Commits](examples/03-desfazer-commits.md)** - All techniques
+
+---
+
+## Popular Workflows
+
+### GitHub Flow (Simple)
+
+```
+main (always deployable)
+  ├─ feature/login
+  ├─ feature/payment
+  └─ hotfix/critical-bug
+```
+
+**Rules:**
+1. `main` always working
+2. Branch per feature
+3. Pull Request to review
+4. Merge and deploy
+
+---
+
+### Gitflow (Complete)
+
+```
+main (production)
+  └─ develop (development)
+      ├─ feature/new-feature
+      ├─ release/v1.2.0
+      └─ hotfix/correction
+```
+
+**Branches:**
+- `main`: production code
+- `develop`: next version
+- `feature/*`: new features
+- `release/*`: release preparation
+- `hotfix/*`: urgent fixes
+
+---
+
+### Trunk-Based (Fast)
+
+```
+main (trunk)
+  ├─ feature-flags
+  └─ direct commits
+```
+
+**Characteristics:**
+- Direct commits to main
+- Short-lived branches (<1 day)
+- Feature flags for incomplete features
+- Robust CI/CD
+
+---
+
+## Best Practices
+
+### Commit Messages
+
+**Conventional Commits:**
+```
+type(scope): short description
+
+Detailed description (optional)
+
+BREAKING CHANGE: description (optional)
+```
+
+**Types:**
+- `feat`: new feature
+- `fix`: bug fix
+- `docs`: documentation
+- `style`: formatting
+- `refactor`: refactoring
+- `test`: tests
+- `chore`: maintenance
+
+**Example:**
+```bash
+git commit -m "feat(auth): add JWT authentication
+
+Implement login with JWT tokens
+Add authentication middleware
+Tokens expire after 24h"
+```
+
+---
+
+### What NOT to commit
+
+**Never commit:**
+- Passwords, API keys, tokens
+- Environment files (`.env`)
+- Dependencies (`node_modules/`, `venv/`)
+- Build files (`dist/`, `build/`)
+- IDE files (`.idea/`, `.vscode/`)
+- Logs and temporary files
+
+**Use `.gitignore`:**
+```bash
+# .gitignore
+.env
+node_modules/
+*.log
+.DS_Store
+```
+
+---
+
+### When to commit
+
+**Commit when:**
+- Complete and tested functionality
+- Bug fixed and verified
+- Refactoring that doesn't break anything
+- Updated documentation
+
+**Ideal size:**
+- Not too large (makes review difficult)
+- Not too small (clutters history)
+- One complete logical change
+
+---
+
+## Visual Cheatsheet
+
+For quick visual reference, see:
+
+**[docs/cheatsheet.md](docs/cheatsheet.md)** - Diagrams and organized commands
+
+---
+
+## External Resources
+
+### Official Documentation
+- [Git Documentation](https://git-scm.com/doc) - Complete documentation
+- [Pro Git Book](https://git-scm.com/book/en/v2) - Free book
+
+### Interactive Tutorials
+- [Learn Git Branching](https://learngitbranching.js.org/) - Visual and interactive
+- [Git Visualizer](https://git-school.github.io/visualizing-git/) - Visualize commands
+
+### Guides
+- [GitHub Guides](https://guides.github.com/)
+- [Atlassian Git Tutorials](https://www.atlassian.com/git/tutorials)
+- [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
+
+### Visual Tools
+- [GitKraken](https://www.gitkraken.com/) - Visual Git client
+- [SourceTree](https://www.sourcetreeapp.com/) - Free client
+- [Git Extensions](https://gitextensions.github.io/) - For Windows
+
+---
+
+## Troubleshooting
+
+### Error: "fatal: not a git repository"
+
+```bash
+# You're not in a Git repository
+git init  # To create new
+# OR
+cd /path/to/repository  # Go to existing repository
+```
+
+---
+
+### Error: "Your branch is behind"
+
+```bash
+# Your repository is outdated
+git pull origin main
+```
+
+---
+
+### Error: "CONFLICT (content): Merge conflict"
+
+```bash
+# There are merge conflicts
+git status  # See conflicting files
+# Edit files manually
+git add <resolved-file>
+git commit
+```
+
+---
+
+### Error: "Permission denied (publickey)"
+
+```bash
+# Configure SSH keys
+ssh-keygen -t ed25519 -C "your@email.com"
+# Add key to GitHub
+cat ~/.ssh/id_ed25519.pub
+```
+
+---
+
+### "I committed to wrong branch!"
+
+```bash
+git log  # Copy commit hash
+git checkout correct-branch
+git cherry-pick <hash>
+git checkout wrong-branch
+git reset --hard HEAD~1
+```
+
+---
+
+### "I want to undo everything!"
+
+```bash
+# Uncommitted local changes
+git restore .
+
+# Last commit (keep changes)
+git reset --soft HEAD~1
+
+# Last commit (discard changes)
+git reset --hard HEAD~1
+
+# If already pushed
+git revert HEAD
+```
+
+---
+
+## Next Steps
+
+1. **Practice basic commands**
+   - Create test repository
+   - Make commits
+   - Create branches
+
+2. **Use interactive tools**
+   - Run `git-learn.sh` to learn
+   - Use `git-cli.sh` daily
+   - Test with `git-simulator.sh`
+
+3. **Work on real project**
+   - Contribute to open source
+   - Use Git in your projects
+   - Collaborate with others
+
+4. **Study advanced cases**
+   - Interactive rebase
+   - Cherry-pick
+   - Bisect for debugging
+
+5. **Configure your environment**
+   - Useful aliases
+   - Visual tools
+   - IDE integration
+
+---
+
+## Contributing
+
+This is an open learning project. Contributions are welcome!
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
+
+---
+
+## License
+
+MIT License - see [LICENSE](LICENSE) for details.
+
+---
+
+## Author
+
+**Madson Aragão**
+
+Created to help developers master Git in a practical and accessible way.
+
+---
+
+**Last updated:** 2025-11-05
+
+**Course version:** 2.0
+
+---
+
+---
+
+---
+
+# VERSÃO EM PORTUGUÊS
+
+---
+
+## Sobre o Curso (Português)
+
+Bem-vindo ao curso completo de Git! Aprenda desde o básico até técnicas avançadas, com teoria, prática e ferramentas interativas.
+
+**O que torna este curso especial:**
+
+- **Conteúdo Bilíngue:** Todos os materiais, scripts e ferramentas CLI disponíveis em inglês e português
+- **Aprendizado Interativo:** Ferramentas CLI práticas para praticar comandos Git com segurança
+- **Foco no Mundo Real:** Exemplos práticos e casos de uso de workflows reais de desenvolvimento
+- **Aprendizado Progressivo:** Do básico ao avançado, com progressão clara
+- **Código Aberto:** Gratuito e aberto a contribuições
+
+**Todas as ferramentas CLI de aprendizado não supervisionado são bilíngues!**
+
+---
+
+## Parte 1: Fundamentos
+
+### O que é Git?
+
+**Git** é um sistema de controle de versão distribuído criado por Linus Torvalds em 2005. Ele permite que você:
+
+- Rastreie todas as mudanças feitas nos seus arquivos ao longo do tempo
+- Trabalhe em diferentes versões do seu projeto simultaneamente (branches)
+- Colabore com outras pessoas sem sobrescrever o trabalho delas
+- Volte para qualquer versão anterior do seu código a qualquer momento
+
+**Analogia:** Pense no Git como uma "máquina do tempo" para seus arquivos. Você pode:
+- Ver o que mudou e quando
+- Voltar para qualquer ponto no passado
+- Criar realidades alternativas (branches) para testar ideias
+- Mesclar diferentes linhas do tempo (merge)
+
+**Git NÃO é:**
+- Um serviço de nuvem (isso é GitHub, GitLab, etc.)
+- Apenas para programadores (pode ser usado para qualquer arquivo de texto)
+- Complicado (com prática se torna natural)
+
+---
+
+### O que é GitHub?
+
+**GitHub** é uma plataforma web que hospeda repositórios Git na nuvem. É como uma "rede social para código".
+
+**Diferenças principais:**
+
+| Git | GitHub |
+|-----|--------|
+| Sistema de controle de versão | Plataforma de hospedagem |
+| Funciona localmente no seu computador | Funciona na nuvem (online) |
+| Software de linha de comando | Interface web + ferramentas |
+| Gratuito e open source | Gratuito com recursos pagos |
+| Criado em 2005 | Criado em 2008 |
+
+**O que o GitHub adiciona ao Git:**
+- Armazenamento remoto (backup na nuvem)
+- Interface visual para revisar código
+- Pull Requests (revisão de código colaborativa)
+- Issues (gerenciamento de tarefas)
+- Actions (automação de tarefas)
+- Pages (hospedagem de sites estáticos)
+- Colaboração social (seguir desenvolvedores, estrelar projetos)
+
+**Alternativas ao GitHub:**
+- GitLab
+- Bitbucket
+- Gitea
+- SourceForge
+
+---
+
+### Por que usar controle de versão?
+
+**Problemas sem controle de versão:**
+- "Onde está a versão que funcionava?"
+- "Quem fez essa mudança e por quê?"
+- "Como mesclo meu trabalho com o do meu colega?"
+- "Perdi tudo! Não tenho backup!"
+- Pastas cheias de: `projeto_v1`, `projeto_v2_final`, `projeto_v2_final_AGORA_VAI`, `projeto_final_final`
+
+**Benefícios do Git:**
+1. **Histórico completo:** Toda mudança é registrada com data, autor e motivo
+2. **Trabalho paralelo:** Múltiplas pessoas trabalhando simultaneamente sem conflitos
+3. **Segurança:** Backup distribuído - cada clone é um backup completo
+4. **Experimentação segura:** Teste ideias sem medo de quebrar o que funciona
+5. **Rastreabilidade:** Descubra quando e por que cada linha foi modificada
+6. **Reversibilidade:** Desfaça erros facilmente
+7. **Colaboração:** Trabalhe em equipe de forma organizada
+8. **Profissionalismo:** Padrão da indústria de software
+
+**Casos de uso:**
+- Desenvolvimento de software (principal)
+- Documentação técnica
+- Configurações de sistema
+- Artigos e livros (texto)
+- Trabalhos acadêmicos
+- Qualquer projeto com múltiplas versões
+
+---
+
+### Conceitos Essenciais
+
+**Repositório (Repository):**
+- Pasta que contém seu projeto e todo o histórico Git
+- Pode ser local (no seu computador) ou remoto (GitHub, etc.)
+
+**Commit:**
+- Um "snapshot" (foto) do seu projeto em um momento específico
+- Cada commit tem: hash único, autor, data, mensagem descritiva
+
+**Branch:**
+- Uma linha de desenvolvimento independente
+- Permite trabalhar em features sem afetar o código principal
+- Branch padrão: `main` (ou `master` em projetos antigos)
+
+**Merge:**
+- Combinar mudanças de uma branch em outra
+- Pode gerar conflitos que precisam ser resolvidos manualmente
+
+**Working Directory:**
+- Os arquivos que você vê e edita na sua pasta
+
+**Staging Area (Index):**
+- Área intermediária onde você prepara arquivos para commit
+- Permite fazer commits seletivos (só alguns arquivos)
+
+**Remote:**
+- Versão do repositório hospedada em outro lugar (GitHub, etc.)
+- Nome padrão: `origin`
+
+**Estados de um arquivo:**
+1. **Untracked:** Git não está rastreando este arquivo
+2. **Unmodified:** Arquivo rastreado, sem mudanças desde último commit
+3. **Modified:** Arquivo foi modificado mas não está no staging
+4. **Staged:** Arquivo pronto para ser commitado
+
+---
+
+## Parte 2: Comandos
+
+---
+
+## Módulo 1: Comandos Básicos
+
+**Para quem:** Iniciantes que nunca usaram Git
+
+**Você vai aprender:** Criar repositório, fazer commits, ver histórico
+
+---
+
+### 1.1 Configuração Inicial
+
+| Comando | Descrição |
+|---|---|
+| `git config --global user.name "Seu Nome"` | Define seu nome para todos os repositórios |
+| `git config --global user.email "seu@email.com"` | Define seu email para todos os repositórios |
+| `git config --list` | Mostra todas as configurações |
+| `git --version` | Mostra a versão do Git instalada |
+
+**Exemplo:**
+```bash
+git config --global user.name "Madson Aragão"
+git config --global user.email "madson@example.com"
+git config --global core.editor "vim"
+```
+
+---
+
+### 1.2 Criar e Inicializar
+
+| Comando | Descrição |
+|---|---|
+| `git init` | Cria um novo repositório Git na pasta atual |
+| `git clone <url>` | Copia um repositório remoto para seu computador |
+
+**Exemplo:**
 ```bash
 # Criar novo projeto
 mkdir meu-projeto
@@ -368,16 +1316,16 @@ git clone https://github.com/usuario/repositorio.git
 
 ---
 
-### 1.3 Status e Diferenças / Status and Differences
+### 1.3 Status e Diferenças
 
-| Comando / Command | Descrição PT | Description EN |
-|---|---|---|
-| `git status` | Mostra estado atual dos arquivos | Show current state of files |
-| `git status -s` | Status resumido (formato curto) | Short status format |
-| `git diff` | Mostra mudanças não staged | Show unstaged changes |
-| `git diff --staged` | Mostra mudanças staged | Show staged changes |
+| Comando | Descrição |
+|---|---|
+| `git status` | Mostra estado atual dos arquivos |
+| `git status -s` | Status resumido (formato curto) |
+| `git diff` | Mostra mudanças não staged |
+| `git diff --staged` | Mostra mudanças staged |
 
-**Exemplo / Example:**
+**Exemplo:**
 ```bash
 git status              # Ver o que mudou
 git diff arquivo.txt    # Ver mudanças específicas
@@ -385,17 +1333,17 @@ git diff arquivo.txt    # Ver mudanças específicas
 
 ---
 
-### 1.4 Adicionar e Commitar / Add and Commit
+### 1.4 Adicionar e Commitar
 
-| Comando / Command | Descrição PT | Description EN |
-|---|---|---|
-| `git add <arquivo>` | Adiciona arquivo específico ao staging | Add specific file to staging |
-| `git add .` | Adiciona todos os arquivos modificados | Add all modified files |
-| `git add -A` | Adiciona todos (incluindo deletados) | Add all (including deleted) |
-| `git commit -m "mensagem"` | Cria commit com mensagem | Create commit with message |
-| `git commit -am "mensagem"` | Add + commit (só arquivos rastreados) | Add + commit (tracked files only) |
+| Comando | Descrição |
+|---|---|
+| `git add <arquivo>` | Adiciona arquivo específico ao staging |
+| `git add .` | Adiciona todos os arquivos modificados |
+| `git add -A` | Adiciona todos (incluindo deletados) |
+| `git commit -m "mensagem"` | Cria commit com mensagem |
+| `git commit -am "mensagem"` | Add + commit (só arquivos rastreados) |
 
-**Exemplo / Example:**
+**Exemplo:**
 ```bash
 # Workflow básico
 git add arquivo.txt
@@ -408,17 +1356,17 @@ git commit -m "Atualiza documentação"
 
 ---
 
-### 1.5 Ver Histórico / View History
+### 1.5 Ver Histórico
 
-| Comando / Command | Descrição PT | Description EN |
-|---|---|---|
-| `git log` | Mostra histórico completo de commits | Show complete commit history |
-| `git log --oneline` | Histórico resumido (1 linha por commit) | Summarized history (1 line per commit) |
-| `git log --graph` | Histórico com gráfico visual | History with visual graph |
-| `git log -n 5` | Mostra últimos 5 commits | Show last 5 commits |
-| `git show <hash>` | Mostra detalhes de um commit específico | Show details of specific commit |
+| Comando | Descrição |
+|---|---|
+| `git log` | Mostra histórico completo de commits |
+| `git log --oneline` | Histórico resumido (1 linha por commit) |
+| `git log --graph` | Histórico com gráfico visual |
+| `git log -n 5` | Mostra últimos 5 commits |
+| `git show <hash>` | Mostra detalhes de um commit específico |
 
-**Exemplo / Example:**
+**Exemplo:**
 ```bash
 git log --oneline --graph --all
 git log --author="Madson"
@@ -427,17 +1375,17 @@ git log --since="2 weeks ago"
 
 ---
 
-### 1.6 Repositórios Remotos / Remote Repositories
+### 1.6 Repositórios Remotos
 
-| Comando / Command | Descrição PT | Description EN |
-|---|---|---|
-| `git remote add origin <url>` | Conecta repositório local ao remoto | Connect local repository to remote |
-| `git remote -v` | Lista remotos configurados | List configured remotes |
-| `git push -u origin main` | Envia commits para remoto (primeira vez) | Send commits to remote (first time) |
-| `git push` | Envia commits para remoto | Send commits to remote |
-| `git pull` | Busca e mescla mudanças do remoto | Fetch and merge changes from remote |
+| Comando | Descrição |
+|---|---|
+| `git remote add origin <url>` | Conecta repositório local ao remoto |
+| `git remote -v` | Lista remotos configurados |
+| `git push -u origin main` | Envia commits para remoto (primeira vez) |
+| `git push` | Envia commits para remoto |
+| `git pull` | Busca e mescla mudanças do remoto |
 
-**Exemplo / Example:**
+**Exemplo:**
 ```bash
 # Conectar ao GitHub
 git remote add origin https://github.com/usuario/repo.git
@@ -450,28 +1398,26 @@ git pull
 
 ---
 
-## Módulo 2: Comandos Intermediários / Module 2: Intermediate Commands
+## Módulo 2: Comandos Intermediários
 
 **Para quem:** Quem já sabe o básico e quer trabalhar com branches e colaboração
 
-**For whom:** Those who know basics and want to work with branches and collaboration
-
 ---
 
-### 2.1 Trabalhando com Branches / Working with Branches
+### 2.1 Trabalhando com Branches
 
-| Comando / Command | Descrição PT | Description EN |
-|---|---|---|
-| `git branch` | Lista todas as branches locais | List all local branches |
-| `git branch -a` | Lista todas as branches (local + remoto) | List all branches (local + remote) |
-| `git branch <nome>` | Cria nova branch | Create new branch |
-| `git checkout <nome>` | Muda para outra branch | Switch to another branch |
-| `git checkout -b <nome>` | Cria e muda para nova branch | Create and switch to new branch |
-| `git switch <nome>` | Muda de branch (comando moderno) | Switch branch (modern command) |
-| `git branch -d <nome>` | Deleta branch (se já foi merged) | Delete branch (if already merged) |
-| `git branch -D <nome>` | Força deleção de branch | Force delete branch |
+| Comando | Descrição |
+|---|---|
+| `git branch` | Lista todas as branches locais |
+| `git branch -a` | Lista todas as branches (local + remoto) |
+| `git branch <nome>` | Cria nova branch |
+| `git checkout <nome>` | Muda para outra branch |
+| `git checkout -b <nome>` | Cria e muda para nova branch |
+| `git switch <nome>` | Muda de branch (comando moderno) |
+| `git branch -d <nome>` | Deleta branch (se já foi merged) |
+| `git branch -D <nome>` | Força deleção de branch |
 
-**Exemplo / Example:**
+**Exemplo:**
 ```bash
 # Criar feature
 git checkout -b feature/login
@@ -485,15 +1431,15 @@ git checkout main
 
 ---
 
-### 2.2 Merge e Conflitos / Merge and Conflicts
+### 2.2 Merge e Conflitos
 
-| Comando / Command | Descrição PT | Description EN |
-|---|---|---|
-| `git merge <branch>` | Mescla branch especificada na atual | Merge specified branch into current |
-| `git merge --abort` | Cancela merge em andamento | Cancel ongoing merge |
-| `git merge --no-ff <branch>` | Merge sem fast-forward (cria commit de merge) | Merge without fast-forward (creates merge commit) |
+| Comando | Descrição |
+|---|---|
+| `git merge <branch>` | Mescla branch especificada na atual |
+| `git merge --abort` | Cancela merge em andamento |
+| `git merge --no-ff <branch>` | Merge sem fast-forward (cria commit de merge) |
 
-**Exemplo / Example:**
+**Exemplo:**
 ```bash
 git checkout main
 git merge feature/login
@@ -507,19 +1453,19 @@ git merge feature/login
 
 ---
 
-### 2.3 Stash (Guardar Temporariamente) / Stash (Save Temporarily)
+### 2.3 Stash (Guardar Temporariamente)
 
-| Comando / Command | Descrição PT | Description EN |
-|---|---|---|
-| `git stash` | Salva mudanças temporariamente | Save changes temporarily |
-| `git stash push -m "mensagem"` | Stash com mensagem descritiva | Stash with descriptive message |
-| `git stash list` | Lista todos os stashes | List all stashes |
-| `git stash pop` | Recupera último stash e remove da lista | Recover last stash and remove from list |
-| `git stash apply` | Aplica stash mas mantém na lista | Apply stash but keep in list |
-| `git stash drop` | Remove último stash | Remove last stash |
-| `git stash clear` | Remove todos os stashes | Remove all stashes |
+| Comando | Descrição |
+|---|---|
+| `git stash` | Salva mudanças temporariamente |
+| `git stash push -m "mensagem"` | Stash com mensagem descritiva |
+| `git stash list` | Lista todos os stashes |
+| `git stash pop` | Recupera último stash e remove da lista |
+| `git stash apply` | Aplica stash mas mantém na lista |
+| `git stash drop` | Remove último stash |
+| `git stash clear` | Remove todos os stashes |
 
-**Exemplo / Example:**
+**Exemplo:**
 ```bash
 # Mudança de contexto rápida
 git stash push -m "WIP: trabalhando no login"
@@ -531,18 +1477,18 @@ git stash pop
 
 ---
 
-### 2.4 Desfazer Mudanças / Undo Changes
+### 2.4 Desfazer Mudanças
 
-| Comando / Command | Descrição PT | Description EN |
-|---|---|---|
-| `git restore <arquivo>` | Descarta mudanças em arquivo | Discard changes in file |
-| `git restore --staged <arquivo>` | Remove arquivo do staging | Remove file from staging |
-| `git reset --soft HEAD~1` | Desfaz commit, mantém mudanças staged | Undo commit, keep changes staged |
-| `git reset --mixed HEAD~1` | Desfaz commit, remove do staging | Undo commit, unstage changes |
-| `git reset --hard HEAD~1` | Desfaz commit e descarta mudanças | Undo commit and discard changes |
-| `git revert <hash>` | Cria novo commit desfazendo outro | Create new commit undoing another |
+| Comando | Descrição |
+|---|---|
+| `git restore <arquivo>` | Descarta mudanças em arquivo |
+| `git restore --staged <arquivo>` | Remove arquivo do staging |
+| `git reset --soft HEAD~1` | Desfaz commit, mantém mudanças staged |
+| `git reset --mixed HEAD~1` | Desfaz commit, remove do staging |
+| `git reset --hard HEAD~1` | Desfaz commit e descarta mudanças |
+| `git revert <hash>` | Cria novo commit desfazendo outro |
 
-**Exemplo / Example:**
+**Exemplo:**
 ```bash
 # Desfazer mudanças locais
 git restore arquivo.txt
@@ -556,17 +1502,17 @@ git revert a1b2c3d
 
 ---
 
-### 2.5 Tags (Versões) / Tags (Versions)
+### 2.5 Tags (Versões)
 
-| Comando / Command | Descrição PT | Description EN |
-|---|---|---|
-| `git tag` | Lista todas as tags | List all tags |
-| `git tag v1.0.0` | Cria tag leve | Create lightweight tag |
-| `git tag -a v1.0.0 -m "Versão 1.0"` | Cria tag anotada | Create annotated tag |
-| `git push origin v1.0.0` | Envia tag para remoto | Push tag to remote |
-| `git push origin --tags` | Envia todas as tags | Push all tags |
+| Comando | Descrição |
+|---|---|
+| `git tag` | Lista todas as tags |
+| `git tag v1.0.0` | Cria tag leve |
+| `git tag -a v1.0.0 -m "Versão 1.0"` | Cria tag anotada |
+| `git push origin v1.0.0` | Envia tag para remoto |
+| `git push origin --tags` | Envia todas as tags |
 
-**Exemplo / Example:**
+**Exemplo:**
 ```bash
 git tag -a v1.0.0 -m "Primeira versão estável"
 git push origin v1.0.0
@@ -574,32 +1520,30 @@ git push origin v1.0.0
 
 ---
 
-## Módulo 3: Comandos Avançados / Module 3: Advanced Commands
+## Módulo 3: Comandos Avançados
 
 **Para quem:** Desenvolvedores experientes que querem dominar Git
 
-**For whom:** Experienced developers who want to master Git
-
 ---
 
-### 3.1 Rebase (Reescrever Histórico) / Rebase (Rewrite History)
+### 3.1 Rebase (Reescrever Histórico)
 
-| Comando / Command | Descrição PT | Description EN |
-|---|---|---|
-| `git rebase main` | Reaplica commits da branch atual sobre main | Reapply current branch commits on top of main |
-| `git rebase -i HEAD~3` | Rebase interativo (editar últimos 3 commits) | Interactive rebase (edit last 3 commits) |
-| `git rebase --continue` | Continua rebase após resolver conflitos | Continue rebase after resolving conflicts |
-| `git rebase --abort` | Cancela rebase em andamento | Cancel ongoing rebase |
-| `git pull --rebase` | Pull com rebase em vez de merge | Pull with rebase instead of merge |
+| Comando | Descrição |
+|---|---|
+| `git rebase main` | Reaplica commits da branch atual sobre main |
+| `git rebase -i HEAD~3` | Rebase interativo (editar últimos 3 commits) |
+| `git rebase --continue` | Continua rebase após resolver conflitos |
+| `git rebase --abort` | Cancela rebase em andamento |
+| `git pull --rebase` | Pull com rebase em vez de merge |
 
-**Quando usar / When to use:**
+**Quando usar:**
 - Manter histórico linear e limpo
 - Antes de criar Pull Request
 - Atualizar feature branch com main
 
-**CUIDADO / WARNING:** Não faça rebase de commits já enviados ao remoto!
+**CUIDADO:** Não faça rebase de commits já enviados ao remoto!
 
-**Exemplo / Example:**
+**Exemplo:**
 ```bash
 git checkout feature/login
 git rebase main
@@ -611,16 +1555,16 @@ git rebase -i HEAD~5
 
 ---
 
-### 3.2 Cherry-pick (Commits Seletivos) / Cherry-pick (Selective Commits)
+### 3.2 Cherry-pick (Commits Seletivos)
 
-| Comando / Command | Descrição PT | Description EN |
-|---|---|---|
-| `git cherry-pick <hash>` | Aplica commit específico na branch atual | Apply specific commit to current branch |
-| `git cherry-pick <hash1> <hash2>` | Aplica múltiplos commits | Apply multiple commits |
-| `git cherry-pick --continue` | Continua após resolver conflitos | Continue after resolving conflicts |
-| `git cherry-pick --abort` | Cancela cherry-pick | Cancel cherry-pick |
+| Comando | Descrição |
+|---|---|
+| `git cherry-pick <hash>` | Aplica commit específico na branch atual |
+| `git cherry-pick <hash1> <hash2>` | Aplica múltiplos commits |
+| `git cherry-pick --continue` | Continua após resolver conflitos |
+| `git cherry-pick --abort` | Cancela cherry-pick |
 
-**Exemplo / Example:**
+**Exemplo:**
 ```bash
 # Levar bugfix de uma branch para outra
 git checkout main
@@ -629,15 +1573,15 @@ git cherry-pick a1b2c3d
 
 ---
 
-### 3.3 Reflog (Recuperar Commits Perdidos) / Reflog (Recover Lost Commits)
+### 3.3 Reflog (Recuperar Commits Perdidos)
 
-| Comando / Command | Descrição PT | Description EN |
-|---|---|---|
-| `git reflog` | Mostra histórico de movimentos do HEAD | Show history of HEAD movements |
-| `git reflog show <branch>` | Reflog de branch específica | Reflog of specific branch |
-| `git reset --hard <hash>` | Volta para commit específico do reflog | Go back to specific commit from reflog |
+| Comando | Descrição |
+|---|---|
+| `git reflog` | Mostra histórico de movimentos do HEAD |
+| `git reflog show <branch>` | Reflog de branch específica |
+| `git reset --hard <hash>` | Volta para commit específico do reflog |
 
-**Exemplo / Example:**
+**Exemplo:**
 ```bash
 # "Perdi" commits após reset
 git reflog
@@ -647,16 +1591,16 @@ git reset --hard HEAD@{2}  # Recupera!
 
 ---
 
-### 3.4 Bisect (Encontrar Bugs) / Bisect (Find Bugs)
+### 3.4 Bisect (Encontrar Bugs)
 
-| Comando / Command | Descrição PT | Description EN |
-|---|---|---|
-| `git bisect start` | Inicia busca binária por bug | Start binary search for bug |
-| `git bisect bad` | Marca commit atual como ruim | Mark current commit as bad |
-| `git bisect good <hash>` | Marca commit como bom | Mark commit as good |
-| `git bisect reset` | Finaliza bisect | End bisect |
+| Comando | Descrição |
+|---|---|
+| `git bisect start` | Inicia busca binária por bug |
+| `git bisect bad` | Marca commit atual como ruim |
+| `git bisect good <hash>` | Marca commit como bom |
+| `git bisect reset` | Finaliza bisect |
 
-**Exemplo / Example:**
+**Exemplo:**
 ```bash
 git bisect start
 git bisect bad                  # Commit atual tem bug
@@ -667,41 +1611,41 @@ git bisect good v1.0.0          # v1.0.0 funcionava
 
 ---
 
-### 3.5 Blame (Quem Mudou?) / Blame (Who Changed?)
+### 3.5 Blame (Quem Mudou?)
 
-| Comando / Command | Descrição PT | Description EN |
-|---|---|---|
-| `git blame <arquivo>` | Mostra quem modificou cada linha | Show who modified each line |
-| `git blame -L 10,20 <arquivo>` | Blame de linhas específicas | Blame specific lines |
-| `git blame -C <arquivo>` | Detecta linhas copiadas | Detect copied lines |
+| Comando | Descrição |
+|---|---|
+| `git blame <arquivo>` | Mostra quem modificou cada linha |
+| `git blame -L 10,20 <arquivo>` | Blame de linhas específicas |
+| `git blame -C <arquivo>` | Detecta linhas copiadas |
 
-**Exemplo / Example:**
+**Exemplo:**
 ```bash
 git blame src/main.py -L 50,60
 ```
 
 ---
 
-### 3.6 Submodules (Submódulos) / Submodules
+### 3.6 Submodules (Submódulos)
 
-| Comando / Command | Descrição PT | Description EN |
-|---|---|---|
-| `git submodule add <url> <path>` | Adiciona repositório como submódulo | Add repository as submodule |
-| `git submodule init` | Inicializa submódulos | Initialize submodules |
-| `git submodule update` | Atualiza submódulos | Update submodules |
-| `git clone --recursive <url>` | Clone com submódulos | Clone with submodules |
+| Comando | Descrição |
+|---|---|
+| `git submodule add <url> <path>` | Adiciona repositório como submódulo |
+| `git submodule init` | Inicializa submódulos |
+| `git submodule update` | Atualiza submódulos |
+| `git clone --recursive <url>` | Clone com submódulos |
 
 ---
 
-### 3.7 Worktree (Múltiplos Diretórios) / Worktree (Multiple Directories)
+### 3.7 Worktree (Múltiplos Diretórios)
 
-| Comando / Command | Descrição PT | Description EN |
-|---|---|---|
-| `git worktree add <path> <branch>` | Cria diretório para branch | Create directory for branch |
-| `git worktree list` | Lista worktrees | List worktrees |
-| `git worktree remove <path>` | Remove worktree | Remove worktree |
+| Comando | Descrição |
+|---|---|
+| `git worktree add <path> <branch>` | Cria diretório para branch |
+| `git worktree list` | Lista worktrees |
+| `git worktree remove <path>` | Remove worktree |
 
-**Exemplo / Example:**
+**Exemplo:**
 ```bash
 # Trabalhar em 2 branches simultaneamente
 git worktree add ../projeto-feature feature/nova
@@ -711,14 +1655,14 @@ cd ../projeto-feature
 
 ---
 
-### 3.8 Hooks (Automação) / Hooks (Automation)
+### 3.8 Hooks (Automação)
 
 **Arquivos em `.git/hooks/`:**
 - `pre-commit`: Executa antes de commit
 - `pre-push`: Executa antes de push
 - `post-merge`: Executa após merge
 
-**Exemplo / Example:**
+**Exemplo:**
 ```bash
 # .git/hooks/pre-commit
 #!/bin/bash
@@ -727,111 +1671,101 @@ npm test  # Roda testes antes de permitir commit
 
 ---
 
-## PARTE 3: PRÁTICA / PART 3: PRACTICE
+## Parte 3: Prática
 
 ---
 
-## Ferramentas Interativas / Interactive Tools
+## Ferramentas Interativas
 
 Este curso inclui ferramentas CLI interativas para facilitar o aprendizado e uso do Git.
 
-This course includes interactive CLI tools to facilitate learning and using Git.
-
 ---
 
-### 1. Tutorial Interativo / Interactive Tutorial
+### 1. Tutorial Interativo
 
 **[git-learn.sh](scripts/git-learn.sh)** - Aprenda Git do zero
-
-**[git-learn.sh](scripts/git-learn.sh)** - Learn Git from scratch
 
 ```bash
 ./scripts/git-learn.sh
 ```
 
-**Conteúdo / Content:**
+**Conteúdo:**
 - 12 lições progressivas (básico ao intermediário)
 - Explicações em português e inglês
 - Exercício prático guiado ao final
 - Cria repositório de teste real
 
-**Para quem / For whom:**
+**Para quem:**
 - Iniciantes totais em Git
 - Quem quer entender os conceitos
 - Estudantes aprendendo programação
 
 ---
 
-### 2. CLI Interativo / Interactive CLI
+### 2. CLI Interativo
 
 **[git-cli.sh](scripts/git-cli.sh)** - Execute comandos Git via menu
-
-**[git-cli.sh](scripts/git-cli.sh)** - Execute Git commands via menu
 
 ```bash
 ./scripts/git-cli.sh
 ```
 
-**Funcionalidades / Features:**
+**Funcionalidades:**
 - 13 operações Git mais comuns
 - Interface com menu numerado
 - Confirmação para ações perigosas
 - Detecta repositório automaticamente
 - Mostra branch atual
 
-**Para quem / For whom:**
+**Para quem:**
 - Quem quer agilizar tarefas comuns
 - Iniciantes que ainda não decoraram comandos
 - Uso rápido no dia a dia
 
 ---
 
-### 3. Simulador Git / Git Simulator
+### 3. Simulador Git
 
 **[git-simulator.sh](scripts/git-simulator.sh)** - Simule operações Git sem risco
-
-**[git-simulator.sh](scripts/git-simulator.sh)** - Simulate Git operations without risk
 
 ```bash
 ./scripts/git-simulator.sh
 ```
 
-**Funcionalidades / Features:**
+**Funcionalidades:**
 - Cria ambiente de teste temporário
 - Simula workflow completo de Git
 - Visualiza estado do repositório
 - Pratica sem medo de errar
 - Ambiente é destruído ao sair
 
-**Para quem / For whom:**
+**Para quem:**
 - Quem quer praticar sem risco
 - Aulas e workshops de Git
 - Testar comandos antes de usar em projetos reais
 
 ---
 
-### 4. Lista de Comandos / Commands List
+### 4. Lista de Comandos
 
 **[list-of-comds-how2git.sh](scripts/list-of-comds-how2git.sh)** - Comandos organizados e comentados
 
-**[list-of-comds-how2git.sh](scripts/list-of-comds-how2git.sh)** - Organized and commented commands
-
 ```bash
 cat scripts/list-of-comds-how2git.sh
-# ou / or
+# ou
 vim scripts/list-of-comds-how2git.sh
 ```
 
-**Para quem / For whom:**
+**Para quem:**
 - Referência rápida
 - Copiar e colar comandos
 - Estudar sintaxe
 
 ---
 
-## Casos de Uso Reais / Real World Use Cases
+## Casos de Uso Reais
 
-### Caso 1: Primeiro dia no projeto / First day on project
+### Caso 1: Primeiro dia no projeto
 
 ```bash
 # Clonar repositório
@@ -850,7 +1784,7 @@ git checkout -b feature/minha-tarefa
 
 ---
 
-### Caso 2: Feature completa / Complete feature
+### Caso 2: Feature completa
 
 ```bash
 # Criar branch
@@ -874,7 +1808,7 @@ git push -u origin feature/login
 
 ---
 
-### Caso 3: Bug urgente em produção / Urgent production bug
+### Caso 3: Bug urgente em produção
 
 ```bash
 # Salvar trabalho atual
@@ -899,7 +1833,7 @@ git stash pop
 
 ---
 
-### Caso 4: Desfazer desastre / Undo disaster
+### Caso 4: Desfazer desastre
 
 ```bash
 # "Deletei tudo com reset --hard!"
@@ -914,7 +1848,7 @@ git reset --hard HEAD@{2}
 
 ---
 
-### Caso 5: Limpar histórico antes de PR / Clean history before PR
+### Caso 5: Limpar histórico antes de PR
 
 ```bash
 # Você tem 10 commits bagunçados
@@ -935,7 +1869,7 @@ git push --force-with-lease
 
 ---
 
-### Caso 6: Resolver conflito de merge / Resolve merge conflict
+### Caso 6: Resolver conflito de merge
 
 ```bash
 git merge main
@@ -957,21 +1891,19 @@ git commit -m "Resolve conflito de merge"
 
 ---
 
-## Exemplos Práticos / Practical Examples
+## Exemplos Práticos
 
 Exemplos detalhados de cenários reais:
 
-Detailed examples of real scenarios:
-
-- **[Resolver Conflitos](examples/01-resolver-conflitos.md)** - Passo a passo completo / Complete step by step
-- **[Criar Pull Request](examples/02-criar-pull-request.md)** - Workflow completo / Complete workflow
-- **[Desfazer Commits](examples/03-desfazer-commits.md)** - Todas as técnicas / All techniques
+- **[Resolver Conflitos](examples/01-resolver-conflitos.md)** - Passo a passo completo
+- **[Criar Pull Request](examples/02-criar-pull-request.md)** - Workflow completo
+- **[Desfazer Commits](examples/03-desfazer-commits.md)** - Todas as técnicas
 
 ---
 
-## Workflows Populares / Popular Workflows
+## Workflows Populares
 
-### GitHub Flow (Simples) / GitHub Flow (Simple)
+### GitHub Flow (Simples)
 
 ```
 main (sempre deployável)
@@ -980,7 +1912,7 @@ main (sempre deployável)
   └─ hotfix/bug-critico
 ```
 
-**Regras / Rules:**
+**Regras:**
 1. `main` sempre funcionando
 2. Branch por feature
 3. Pull Request para revisar
@@ -988,7 +1920,7 @@ main (sempre deployável)
 
 ---
 
-### Gitflow (Completo) / Gitflow (Complete)
+### Gitflow (Completo)
 
 ```
 main (produção)
@@ -1007,7 +1939,7 @@ main (produção)
 
 ---
 
-### Trunk-Based (Rápido) / Trunk-Based (Fast)
+### Trunk-Based (Rápido)
 
 ```
 main (trunk)
@@ -1015,17 +1947,17 @@ main (trunk)
   └─ commits diretos
 ```
 
-**Características / Characteristics:**
+**Características:**
 - Commits diretos em main
-- Branches de vida curta (&lt;1 dia)
+- Branches de vida curta (<1 dia)
 - Feature flags para funcionalidades incompletas
 - CI/CD robusto
 
 ---
 
-## Melhores Práticas / Best Practices
+## Melhores Práticas
 
-### Mensagens de Commit / Commit Messages
+### Mensagens de Commit
 
 **Conventional Commits:**
 ```
@@ -1036,7 +1968,7 @@ Descrição detalhada (opcional)
 BREAKING CHANGE: descrição (opcional)
 ```
 
-**Tipos / Types:**
+**Tipos:**
 - `feat`: nova funcionalidade
 - `fix`: correção de bug
 - `docs`: documentação
@@ -1045,7 +1977,7 @@ BREAKING CHANGE: descrição (opcional)
 - `test`: testes
 - `chore`: manutenção
 
-**Exemplo / Example:**
+**Exemplo:**
 ```bash
 git commit -m "feat(auth): adiciona autenticação JWT
 
@@ -1056,9 +1988,9 @@ Expira tokens após 24h"
 
 ---
 
-### O que NÃO commitar / What NOT to commit
+### O que NÃO commitar
 
-**Nunca commite / Never commit:**
+**Nunca commite:**
 - Senhas, API keys, tokens
 - Arquivos de ambiente (`.env`)
 - Dependências (`node_modules/`, `venv/`)
@@ -1066,7 +1998,7 @@ Expira tokens após 24h"
 - Arquivos do IDE (`.idea/`, `.vscode/`)
 - Logs e temporários
 
-**Use `.gitignore` / Use `.gitignore`:**
+**Use `.gitignore`:**
 ```bash
 # .gitignore
 .env
@@ -1077,56 +2009,52 @@ node_modules/
 
 ---
 
-### Quando fazer commit / When to commit
+### Quando fazer commit
 
-**Faça commit quando / Commit when:**
+**Faça commit quando:**
 - Funcionalidade completa e testada
 - Bug corrigido e verificado
 - Refatoração que não quebra nada
 - Documentação atualizada
 
-**Tamanho ideal / Ideal size:**
+**Tamanho ideal:**
 - Nem muito grande (dificulta revisão)
 - Nem muito pequeno (polui histórico)
 - Uma mudança lógica completa
 
 ---
 
-## Cheatsheet Visual / Visual Cheatsheet
+## Cheatsheet Visual
 
 Para referência rápida visual, veja:
 
-For quick visual reference, see:
-
 **[docs/cheatsheet.md](docs/cheatsheet.md)** - Diagramas e comandos organizados
-
-**[docs/cheatsheet.md](docs/cheatsheet.md)** - Diagrams and organized commands
 
 ---
 
-## Recursos Externos / External Resources
+## Recursos Externos
 
-### Documentação Oficial / Official Documentation
+### Documentação Oficial
 - [Git Documentation](https://git-scm.com/doc) - Documentação completa
 - [Pro Git Book](https://git-scm.com/book/en/v2) - Livro gratuito
 
-### Tutoriais Interativos / Interactive Tutorials
+### Tutoriais Interativos
 - [Learn Git Branching](https://learngitbranching.js.org/) - Visual e interativo
 - [Git Visualizer](https://git-school.github.io/visualizing-git/) - Visualize comandos
 
-### Guias / Guides
+### Guias
 - [GitHub Guides](https://guides.github.com/)
 - [Atlassian Git Tutorials](https://www.atlassian.com/git/tutorials)
 - [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
 
-### Ferramentas Visuais / Visual Tools
+### Ferramentas Visuais
 - [GitKraken](https://www.gitkraken.com/) - Cliente Git visual
 - [SourceTree](https://www.sourcetreeapp.com/) - Cliente gratuito
 - [Git Extensions](https://gitextensions.github.io/) - Para Windows
 
 ---
 
-## Solução de Problemas / Troubleshooting
+## Solução de Problemas
 
 ### Erro: "fatal: not a git repository"
 
@@ -1201,7 +2129,7 @@ git revert HEAD
 
 ---
 
-## Próximos Passos / Next Steps
+## Próximos Passos
 
 1. **Pratique os comandos básicos**
    - Crie repositório de teste
@@ -1230,36 +2158,28 @@ git revert HEAD
 
 ---
 
-## Contribuindo / Contributing
+## Contribuindo
 
 Este é um projeto de aprendizado aberto. Contribuições são bem-vindas!
 
-This is an open learning project. Contributions are welcome!
-
 Veja [CONTRIBUTING.md](CONTRIBUTING.md) para detalhes.
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
 ---
 
-## Licença / License
+## Licença
 
 MIT License - veja [LICENSE](LICENSE) para detalhes.
 
-MIT License - see [LICENSE](LICENSE) for details.
-
 ---
 
-## Autor / Author
+## Autor
 
 **Madson Aragão**
 
 Criado para ajudar desenvolvedores a dominar Git de forma prática e acessível.
 
-Created to help developers master Git in a practical and accessible way.
-
 ---
 
-**Última atualização / Last updated:** 2025-11-05
+**Última atualização:** 2025-11-05
 
-**Versão do curso / Course version:** 2.0
+**Versão do curso:** 2.0
