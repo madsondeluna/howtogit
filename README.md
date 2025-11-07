@@ -176,9 +176,21 @@ Welcome to the complete Git mini course! Learn from basics to advanced technique
 - Academic papers
 - Any project with multiple versions
 
+> Workflow of how GitHub works
+
+<p align="center">
+  <img src="imgs/github-process-english.png" alt="XXXXXXXXX width="1000" />
+</p>
+
 ---
 
 ### Essential Concepts
+
+> basic workflow with GitHub work (or shold if the users used it in the right way)
+
+<p align="center">
+  <img src="imgs/GitHub-Flow.webp" alt="XXXXXXXXX width="1000" />
+</p>
 
 **Repository:**
 - Folder containing your project and all Git history
@@ -1273,9 +1285,21 @@ Bem-vindo ao curso completo de Git! Aprenda desde o básico até técnicas avan�
 - Trabalhos acadêmicos
 - Qualquer projeto com múltiplas versões
 
+> Fluxo de trabalho de como o GitHub funciona
+
+<p align="center">
+  <img src="imgs/github-process-english.png" alt="XXXXXXXXX width="1000" />
+</p>
+
 ---
 
 ### Conceitos Essenciais
+
+> fluxo básico de trabalho com GitHub (ou deveria se os usuários usassem da forma correta)
+
+<p align="center">
+  <img src="imgs/GitHub-Flow.webp" alt="XXXXXXXXX width="1000" />
+</p>
 
 **Repositório (Repository):**
 - Pasta que contém seu projeto e todo o histórico Git
