@@ -45,6 +45,8 @@ A Quick GitHub Course / Um Curso Rápido de GitHub
 - [Best Practices (EN)](#best-practices)
 - [Troubleshooting (EN)](#troubleshooting)
 - [External Resources (EN)](#external-resources)
+- [Contributing (EN)](#contributing)
+- [Found an Error? Report It! (EN)](#found-an-error-report-it)
 
 ### Versão em Português
 - [Sobre o Curso (PT)](#sobre-o-curso-português)
@@ -55,6 +57,8 @@ A Quick GitHub Course / Um Curso Rápido de GitHub
 - [Melhores Práticas (PT)](#melhores-práticas)
 - [Solução de Problemas (PT)](#solução-de-problemas)
 - [Recursos Externos (PT)](#recursos-externos)
+- [Contribuindo (PT)](#contribuindo)
+- [Encontrou um Erro? Reporte! (PT)](#encontrou-um-erro-reporte)
 
 ---
 
@@ -1097,6 +1101,37 @@ git revert HEAD
 This is an open learning project. Contributions are welcome!
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
+
+---
+
+## Found an Error? Report It!
+
+Since Git is infinite and many things are similar to each other, I definitely don't know everything. So, if anyone finds any error or has suggestions, feel free to open an issue and I'll fix it promptly. I even promise to buy you a chocolate as a reward for your contribution!
+
+### How to Open an Issue
+
+1. **Go to the repository on GitHub**
+   - Navigate to: https://github.com/madsondeluna/howtogit-1
+
+2. **Click on the "Issues" tab**
+   - Located at the top of the repository page
+
+3. **Click the green "New issue" button**
+
+4. **Fill in the issue details:**
+   - **Title:** Write a clear, concise title describing the problem or suggestion
+   - **Description:** Provide details about:
+     - What's wrong or what could be improved
+     - Where you found the error (which file, section, or command)
+     - Any screenshots if applicable
+     - Your suggestions for improvement
+
+5. **Submit:** Click "Submit new issue"
+
+**Example issue titles:**
+- "Error in git rebase command example"
+- "Suggestion: Add section about git worktree"
+- "Typo in Portuguese version - Módulo 2"
 
 ---
 
@@ -2163,6 +2198,37 @@ git revert HEAD
 Este é um projeto de aprendizado aberto. Contribuições são bem-vindas!
 
 Veja [CONTRIBUTING.md](CONTRIBUTING.md) para detalhes.
+
+---
+
+## Encontrou um Erro? Reporte!
+
+Como Git é infinito e muita coisa é parecida uma com a outra, definitivamente não sei tudo, logo, se alguém encontrar algum erro ou tiver sugestões, pode abrir uma issue que corrijo prontamente. Prometo até pagar um chocolate como recompensa pela contribuição.
+
+### Como Abrir uma Issue
+
+1. **Vá até o repositório no GitHub**
+   - Navegue até: https://github.com/madsondeluna/howtogit-1
+
+2. **Clique na aba "Issues"**
+   - Localizada no topo da página do repositório
+
+3. **Clique no botão verde "New issue"**
+
+4. **Preencha os detalhes da issue:**
+   - **Título:** Escreva um título claro e conciso descrevendo o problema ou sugestão
+   - **Descrição:** Forneça detalhes sobre:
+     - O que está errado ou o que pode ser melhorado
+     - Onde você encontrou o erro (qual arquivo, seção ou comando)
+     - Screenshots se aplicável
+     - Suas sugestões de melhoria
+
+5. **Enviar:** Clique em "Submit new issue"
+
+**Exemplos de títulos de issue:**
+- "Erro no exemplo do comando git rebase"
+- "Sugestão: Adicionar seção sobre git worktree"
+- "Erro de digitação na versão em português - Módulo 2"
 
 ---
 
