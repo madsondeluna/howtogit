@@ -36,6 +36,8 @@ A Quick GitHub Course / Um Curso Rápido de GitHub
   <img src="imgs/git-fundamentals.png" alt="XXXXXXXXX width="1000" />
 </p>
 
+> https://sysxplore.com/ 
+
 > Guia rápido para o dia-a-dia de de versionamento com Git e GitHub
 > Quick guide for daily version control with Git and GitHub
 
