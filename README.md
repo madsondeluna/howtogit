@@ -39,9 +39,11 @@ A Quick GitHub Course / Um Curso Rápido de GitHub
 > https://sysxplore.com/ 
 
 > Guia rápido para o dia-a-dia de de versionamento com Git e GitHub
+
 > Quick guide for daily version control with Git and GitHub
 
 > Uma dica? Imprime e cola na parede da sua mesa!!!
+
 > A tip? Print it and stick it on your desk wall!!!
 
 ---
