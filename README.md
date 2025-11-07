@@ -188,7 +188,7 @@ Welcome to the complete Git mini course! Learn from basics to advanced technique
 
 ### Essential Concepts
 
-> basic workflow with GitHub work (or shold if the users used it in the right way)
+> Basic workflow with GitHub work (or shold if the users used it in the right way)
 
 <p align="center">
   <img src="imgs/GitHub-Flow.webp" alt="XXXXXXXXX width="1000" />
@@ -1297,7 +1297,7 @@ Bem-vindo ao curso completo de Git! Aprenda desde o básico até técnicas avan�
 
 ### Conceitos Essenciais
 
-> fluxo básico de trabalho com GitHub (ou deveria se os usuários usassem da forma correta)
+> Fluxo básico de trabalho com GitHub (ou deveria se os usuários usassem da forma correta)
 
 <p align="center">
   <img src="imgs/GitHub-Flow.webp" alt="XXXXXXXXX width="1000" />
