@@ -26,7 +26,7 @@ A Quick GitHub Course / Um Curso Rápido de GitHub
 
 ---
 
-## Bilingual Course | Curso Bilíngue
+## PT-BR & EN-US
 
 **English:** This is a complete Git course taught in both English and Brazilian Portuguese. All learning materials, interactive CLI tools, and documentation are fully bilingual. The README is organized in two main sections: **first in English**, then **in Portuguese**. Use the table of contents below to jump directly to your preferred language.
 
@@ -40,6 +40,7 @@ A Quick GitHub Course / Um Curso Rápido de GitHub
 > Quick guide for daily version control with Git and GitHub
 
 > Uma dica? Imprime e cola na parede da sua mesa!!!
+> A tip? Print it and stick it on your desk wall!!!
 
 ---
 
