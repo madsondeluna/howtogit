@@ -32,6 +32,15 @@ A Quick GitHub Course / Um Curso Rápido de GitHub
 
 **Português:** Este é um curso completo de Git ministrado em inglês e português brasileiro. Todos os materiais de aprendizado, ferramentas CLI interativas e documentação são totalmente bilíngues. O README está organizado em duas seções principais: **primeiro em inglês**, depois **em português**. Use o índice abaixo para ir diretamente para seu idioma preferido.
 
+<p align="center">
+  <img src="imgs/git-fundamentals.png" alt="XXXXXXXXX width="1000" />
+</p>
+
+> Guia rápido para o dia-a-dia de de versionamento com Git e GitHub
+> Quick guide for daily version control with Git and GitHub
+
+> Uma dica? Imprime e cola na parede da sua mesa!!!
+
 ---
 
 ## Table of Contents | Índice
