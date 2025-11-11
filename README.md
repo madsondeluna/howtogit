@@ -4,7 +4,13 @@ A Quick GitHub Course / Um Curso Rápido de GitHub
 
 ---
 
-[![Ouvir no Spotify](https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg)](https://open.spotify.com/track/LINK_DA_SUA_MUSICA)
+<p align="center">
+  <img src="imgs/spotify.png" alt="XXXXXXXXX width="1000" />
+</p>
+
+This playlist is curated for deep work and focused coding sessions, ideal for maintaining concentration while preparing commits.
+
+[Listen on Spotify](https://open.spotify.com/playlist/1wNirTC24xxOGVDAKf9sXu?si=27192d9d1e7e4c92)
 
 ---
 
