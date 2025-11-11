@@ -5,16 +5,6 @@ A Quick GitHub Course / Um Curso Rápido de GitHub
 ---
 
 <p align="center">
-  <img src="imgs/spotify.png" alt="XXXXXXXXX width="1000" />
-</p>
-
-This playlist is curated for deep work and focused coding sessions, ideal for maintaining concentration while preparing commits.
-
-[Listen on Spotify](https://open.spotify.com/playlist/1wNirTC24xxOGVDAKf9sXu?si=27192d9d1e7e4c92)
-
----
-
-<p align="center">
 
 <!-- Linha 1 — meta + stack (for-the-badge, cores de marca, logos) -->
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
@@ -1189,7 +1179,11 @@ Created to help developers master Git in a practical and accessible way.
 
 ---
 
----
+This playlist is curated for deep work and focused coding sessions, ideal for maintaining concentration while preparing commits. [Listen on Spotify](https://open.spotify.com/playlist/1wNirTC24xxOGVDAKf9sXu?si=27192d9d1e7e4c92)
+
+<p align="center">
+  <img src="imgs/spotify.png" alt="XXXXXXXXX width="1000" />
+</p>
 
 ---
 
@@ -2295,3 +2289,13 @@ Criado para ajudar desenvolvedores a dominar Git de forma prática e acessível.
 **Última atualização:** 2025-11-05
 
 **Versão do curso:** 2.0
+
+---
+
+Esta playlist é selecionada para *deep work* e sessões de codificação, ideal para manter a concentração ao preparar *commits*. [Ouça no Spotify](https://open.spotify.com/playlist/1wNirTC24xxOGVDAKf9sXu?si=27192d9d1e7e4c92)
+
+<p align="center">
+  <img src="imgs/spotify.png" alt="XXXXXXXXX width="1000" />
+</p>
+
+---
