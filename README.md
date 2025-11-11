@@ -4,6 +4,10 @@ A Quick GitHub Course / Um Curso Rápido de GitHub
 
 ---
 
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1wNirTC24xxOGVDAKf9sXu?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+---
+
 <p align="center">
 
 <!-- Linha 1 — meta + stack (for-the-badge, cores de marca, logos) -->
@@ -73,12 +77,6 @@ A Quick GitHub Course / Um Curso Rápido de GitHub
 - [Recursos Externos (PT)](#recursos-externos)
 - [Contribuindo (PT)](#contribuindo)
 - [Encontrou um Erro? Reporte! (PT)](#encontrou-um-erro-reporte)
-
----
-
-<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1wNirTC24xxOGVDAKf9sXu?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
----
 
 # ENGLISH VERSION
 
